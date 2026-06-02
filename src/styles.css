@@ -1,7 +1,7 @@
 @import "tailwindcss";
 @import "../global.css";
 
-@layer base {s
+@layer base {
   :root {
     color-scheme: dark;
   }
@@ -15,10 +15,10 @@
     margin: 0;
     overflow: hidden;
     background:
-      radial-gradient(circle at top, rgba(34, 211, 238, 0.14), transparent 34%),
-      linear-gradient(180deg, #020617 0%, #0f172a 100%);
-    color: rgb(226 232 240);
-    font-family: "Segoe UI", "Inter", sans-serif;
+      radial-gradient(circle at top, var(--app-page-glow), transparent 34%),
+      linear-gradient(180deg, var(--app-page-bg-start) 0%, var(--app-page-bg-end) 100%);
+    color: var(--app-text-primary);
+    font-family: var(--fontFamilyBase);
   }
 }
 
@@ -28,11 +28,15 @@
   }
 
   #sidebar {
-    @apply absolute right-0 top-0 z-20 flex h-full w-80 flex-col border-l border-white/10 bg-slate-900/90 shadow-2xl shadow-black/40 backdrop-blur-xl;
+    @apply absolute right-0 top-0 z-20 flex h-full w-80 flex-col border-l backdrop-blur-xl;
+    background-color: var(--app-sidebar-bg);
+    border-color: var(--app-sidebar-border);
+    box-shadow: var(--shadow16);
   }
 
   .panel {
-    @apply border-b border-white/10 p-4;
+    @apply border-b p-4;
+    border-color: var(--app-panel-border);
   }
 
   #agent-panel {
@@ -40,7 +44,9 @@
   }
 
   #agent-messages {
-    @apply flex-1 space-y-2 overflow-y-auto rounded-2xl border border-white/10 bg-slate-950/60 p-3 text-sm leading-6;
+    @apply flex-1 space-y-2 overflow-y-auto rounded-2xl border p-3 text-sm leading-6;
+    background-color: var(--app-chat-bg);
+    border-color: var(--app-panel-border);
   }
 
   #agent-input-row {
@@ -48,27 +54,69 @@
   }
 
   #agent-input {
-    @apply min-w-0 flex-1 rounded-2xl border border-slate-700 bg-slate-950/80 px-4 py-2.5 text-sm text-slate-100 outline-none transition placeholder:text-slate-500 focus:border-cyan-400 focus:ring-2 focus:ring-cyan-400/20;
+    @apply min-w-0 flex-1 rounded-2xl border px-4 py-2.5 text-sm outline-none transition;
+    background-color: var(--app-input-bg);
+    border-color: var(--app-input-border);
+    color: var(--app-text-primary);
+    box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.04);
+  }
+
+  #agent-input::placeholder,
+  .ai-bar__input::placeholder {
+    color: var(--app-text-muted);
+  }
+
+  #agent-input:focus,
+  .ai-bar__input:focus {
+    border-color: var(--app-accent);
+    box-shadow: 0 0 0 2px color-mix(in srgb, var(--app-accent) 20%, transparent);
   }
 
   #agent-submit {
-    @apply inline-flex items-center justify-center rounded-2xl bg-cyan-500 px-4 text-sm font-medium text-slate-950 transition hover:bg-cyan-400 disabled:cursor-not-allowed disabled:bg-slate-700 disabled:text-slate-400;
+    @apply inline-flex items-center justify-center rounded-2xl px-4 text-sm font-medium transition disabled:cursor-not-allowed;
+    background-color: var(--app-accent);
+    color: var(--app-accent-contrast);
+  }
+
+  #agent-submit:hover {
+    background-color: var(--app-accent-hover);
+  }
+
+  #agent-submit:disabled {
+    background-color: var(--app-disabled-bg);
+    color: var(--app-disabled-text);
   }
 
   #status-bar {
-    @apply border-t border-white/10 px-4 py-3 text-[11px] text-slate-500;
+    @apply border-t px-4 py-3 text-[11px];
+    border-color: var(--app-panel-border);
+    color: var(--app-text-muted);
   }
 
   .msg-user {
-    @apply ml-auto max-w-[90%] rounded-2xl rounded-br-md bg-cyan-500/15 px-3 py-2 text-sm leading-6 text-cyan-100 shadow-sm shadow-cyan-950/30 ring-1 ring-cyan-400/20;
+    @apply ml-auto max-w-[90%] rounded-2xl rounded-br-md px-3 py-2 text-sm leading-6;
+    background-color: var(--app-user-msg-bg);
+    border: 1px solid var(--app-user-msg-border);
+    box-shadow: var(--shadow2);
+    color: var(--app-user-msg-text);
   }
 
   .msg-assistant {
-    @apply max-w-[90%] rounded-2xl rounded-bl-md bg-slate-800/80 px-3 py-2 text-sm leading-6 text-slate-100 shadow-sm shadow-black/20 ring-1 ring-white/10;
+    @apply max-w-[90%] rounded-2xl rounded-bl-md px-3 py-2 text-sm leading-6;
+    background-color: var(--app-assistant-msg-bg);
+    border: 1px solid var(--app-assistant-msg-border);
+    box-shadow: var(--shadow2);
+    color: var(--app-text-primary);
   }
 
   .msg-meta {
-    @apply px-1 text-[10px] italic text-slate-500;
+    @apply px-1 text-[10px] italic;
+    color: var(--app-text-muted);
+  }
+
+  .panel-note {
+    @apply text-[11px];
+    color: var(--app-text-muted);
   }
 
   .prop-table {
@@ -76,19 +124,23 @@
   }
 
   .prop-key {
-    @apply w-2/5 px-2 py-2 align-top text-[11px] uppercase tracking-[0.18em] text-slate-500;
+    @apply w-2/5 px-2 py-2 align-top text-[11px] uppercase tracking-[0.18em];
+    color: var(--app-text-muted);
   }
 
   .prop-val {
-    @apply break-all px-2 py-2 text-xs text-slate-100;
+    @apply break-all px-2 py-2 text-xs;
+    color: var(--app-text-primary);
   }
 
   .loading {
-    @apply mt-3 text-xs italic text-slate-500;
+    @apply mt-3 text-xs italic;
+    color: var(--app-text-muted);
   }
 
   .error {
-    @apply mt-3 text-xs text-rose-300;
+    @apply mt-3 text-xs;
+    color: var(--colorStatusDangerForegroundInverted);
   }
 
   .tree-node {
@@ -96,11 +148,16 @@
   }
 
   .tree-row {
-    @apply flex items-center gap-2 rounded-lg px-2 py-1.5 transition hover:bg-slate-800/70;
+    @apply flex items-center gap-2 rounded-lg px-2 py-1.5 transition;
+  }
+
+  .tree-row:hover {
+    background-color: var(--app-tree-hover-bg);
   }
 
   .tree-toggle {
-    @apply flex w-3 shrink-0 text-cyan-400/80;
+    @apply flex w-3 shrink-0;
+    color: var(--app-accent-soft);
   }
 
   .tree-toggle.has-children {
@@ -108,19 +165,34 @@
   }
 
   .tree-label {
-    @apply min-w-0 flex-1 truncate text-slate-300 transition hover:text-white;
+    @apply min-w-0 flex-1 truncate transition;
+    color: var(--app-tree-label);
+  }
+
+  .tree-label:hover {
+    color: var(--app-text-primary);
   }
 
   .tree-children {
-    @apply ml-4 border-l border-white/10 pl-3;
+    @apply ml-4 border-l pl-3;
+    border-color: var(--app-panel-border);
   }
 
   .tree-isolate {
-    @apply inline-flex shrink-0 items-center rounded-md border border-cyan-400/40 px-1.5 py-0.5 text-[10px] font-semibold text-cyan-300 transition hover:bg-cyan-400/10;
+    @apply inline-flex shrink-0 items-center rounded-md border px-1.5 py-0.5 text-[10px] font-semibold transition;
+    border-color: var(--app-accent-soft-border);
+    color: var(--app-accent-soft-text);
+  }
+
+  .tree-isolate:hover {
+    background-color: var(--app-accent-soft-bg);
   }
 
   .ai-bar {
-    @apply pointer-events-auto absolute left-1/2 bottom-6 z-20 w-[min(48rem,calc(100vw-2rem))] -translate-x-1/2 rounded-3xl border border-white/10 bg-slate-900/90 p-4 shadow-2xl shadow-black/40 backdrop-blur-xl;
+    @apply pointer-events-auto absolute left-1/2 bottom-6 z-20 w-[min(48rem,calc(100vw-2rem))] -translate-x-1/2 rounded-3xl border p-4 backdrop-blur-xl;
+    background-color: var(--app-ai-bar-bg);
+    border-color: var(--app-panel-border);
+    box-shadow: var(--shadow16);
   }
 
   .ai-bar__footer {
@@ -133,15 +205,39 @@
   }
 
   .ai-bar__input {
-    @apply min-h-11 max-h-40 w-full resize-none rounded-2xl border border-slate-700 bg-slate-950/70 px-4 py-3 text-sm text-slate-100 placeholder:text-slate-500 shadow-inner outline-none transition focus:border-cyan-400 focus:ring-2 focus:ring-cyan-400/20;
+    @apply min-h-11 max-h-40 w-full resize-none rounded-2xl border px-4 py-3 text-sm shadow-inner outline-none transition;
+    background-color: var(--app-input-bg);
+    border-color: var(--app-input-border);
+    color: var(--app-text-primary);
+    box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.03);
   }
 
   .ai-bar__icon-button,
   .ai-bar__send {
-    @apply inline-flex h-11 w-11 items-center justify-center rounded-2xl border border-slate-700 bg-slate-800 text-slate-100 transition hover:border-cyan-400/60 hover:bg-cyan-500/10;
+    @apply inline-flex h-11 w-11 items-center justify-center rounded-2xl border transition;
+    background-color: var(--app-icon-bg);
+    border-color: var(--app-input-border);
+    color: var(--app-icon-fg);
+  }
+
+  .ai-bar__icon-button:hover {
+    background-color: var(--app-accent-soft-bg);
+    border-color: var(--app-accent-soft-border);
   }
 
   .ai-bar__send {
-    @apply border-cyan-400/30 bg-cyan-500/90 text-slate-950 hover:bg-cyan-400 disabled:cursor-not-allowed disabled:bg-slate-700 disabled:text-slate-400;
+    border-color: color-mix(in srgb, var(--app-accent) 70%, transparent);
+    background-color: var(--app-accent);
+    color: var(--app-accent-contrast);
+  }
+
+  .ai-bar__send:hover {
+    background-color: var(--app-accent-hover);
+  }
+
+  .ai-bar__send:disabled {
+    cursor: not-allowed;
+    background-color: var(--app-disabled-bg);
+    color: var(--app-disabled-text);
   }
 }

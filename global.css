@@ -377,6 +377,37 @@
   --shadow64Brand: 0 0 8px #0000004d, 0 32px 64px #00000040;
   --shadow8: 0 0 2px #0000001f, 0 4px 8px #00000024;
   --shadow8Brand: 0 0 2px #0000004d, 0 4px 8px #00000040;
+
+  --app-page-bg-start: #020617;
+  --app-page-bg-end: #0f172a;
+  --app-page-glow: rgb(34 211 238 / 0.14);
+  --app-sidebar-bg: color-mix(in srgb, var(--colorNeutralBackgroundInverted) 90%, transparent);
+  --app-sidebar-border: color-mix(in srgb, var(--colorNeutralStroke1) 22%, transparent);
+  --app-panel-border: color-mix(in srgb, var(--colorNeutralStroke1) 18%, transparent);
+  --app-chat-bg: color-mix(in srgb, var(--colorNeutralBackgroundInverted) 75%, transparent);
+  --app-input-bg: color-mix(in srgb, var(--colorNeutralBackgroundInverted) 88%, transparent);
+  --app-input-border: color-mix(in srgb, var(--colorNeutralStroke1) 24%, transparent);
+  --app-text-primary: var(--colorNeutralForegroundInverted);
+  --app-text-muted: color-mix(in srgb, var(--colorNeutralForegroundInverted) 38%, transparent);
+  --app-accent: var(--colorBrandBackgroundStatic);
+  --app-accent-hover: var(--colorBrandBackgroundHover);
+  --app-accent-contrast: var(--colorNeutralForegroundOnBrand);
+  --app-disabled-bg: color-mix(in srgb, var(--colorNeutralForegroundDisabled) 18%, transparent);
+  --app-disabled-text: var(--colorNeutralForegroundInvertedDisabled);
+  --app-user-msg-bg: color-mix(in srgb, var(--colorBrandBackground) 16%, transparent);
+  --app-user-msg-border: color-mix(in srgb, var(--colorBrandStroke2) 24%, transparent);
+  --app-user-msg-text: #d7f3ff;
+  --app-assistant-msg-bg: color-mix(in srgb, var(--colorNeutralBackgroundInverted) 66%, transparent);
+  --app-assistant-msg-border: color-mix(in srgb, var(--colorNeutralStroke1) 14%, transparent);
+  --app-tree-hover-bg: color-mix(in srgb, var(--colorNeutralBackgroundInverted) 40%, transparent);
+  --app-tree-label: var(--colorNeutralForeground3);
+  --app-accent-soft: var(--colorBrandForegroundInverted);
+  --app-accent-soft-border: color-mix(in srgb, var(--colorBrandForegroundInverted) 40%, transparent);
+  --app-accent-soft-bg: color-mix(in srgb, var(--colorBrandForegroundInverted) 10%, transparent);
+  --app-accent-soft-text: var(--colorBrandForegroundInverted);
+  --app-ai-bar-bg: color-mix(in srgb, var(--colorNeutralBackgroundInverted) 90%, transparent);
+  --app-icon-bg: color-mix(in srgb, var(--colorNeutralBackgroundInverted) 72%, transparent);
+  --app-icon-fg: var(--colorNeutralForegroundInverted);
 }
 
 :root {
