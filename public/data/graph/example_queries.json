@@ -1,0 +1,5 @@
+{
+  "isolation_valves_for_LINE_1001": "MATCH (v:Valve)-[:ISOLATED_BY|PART_OF]->(l:Line {tag: \"LINE-1001\"})\nWHERE v.valve_type = 'GATE' OR v.valve_type = 'BALL'\nRETURN v.object_id AS object_id, v.tag AS tag, v.status AS status,\n       v.tile_id AS tile_id, v.feature_id AS feature_id;",
+  "maintenance_context_LINE_1001": "MATCH (l:Line {tag: \"LINE-1001\"})\nOPTIONAL MATCH (pump:Pump)-[:CONNECTED_TO]->(l)\nOPTIONAL MATCH (valve:Valve)-[:PART_OF|ISOLATED_BY]->(l)\nOPTIONAL MATCH (instr:Instrument)-[:PART_OF]->(l)\nOPTIONAL MATCH (seg:PipeSegment)-[:PART_OF]->(l)\nRETURN\n  l.tag AS line_tag,\n  l.object_id AS line_id,\n  collect(DISTINCT pump.tag) AS connected_pumps,\n  collect(DISTINCT valve.tag) AS isolation_valves,\n  collect(DISTINCT instr.tag) AS instruments,\n  count(DISTINCT seg) AS segment_count;",
+  "pumps_connected_to_LINE_1001": "MATCH (p:Pump)-[:CONNECTED_TO]->(l:Line {tag: \"LINE-1001\"})\nRETURN p.object_id AS object_id, p.tag AS tag, p.name AS name, p.status AS status,\n       p.tile_id AS tile_id, p.feature_id AS feature_id;"
+}

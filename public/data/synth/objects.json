@@ -1,0 +1,7509 @@
+[
+  {
+    "object_id": "obj_ccf92b644a92663d4d0bc42f3804974b",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "PLT-001",
+    "name": "Synthetic EPC Plant — TileGraphAgent V1",
+    "class": "Plant",
+    "status": "active",
+    "parent_id": null,
+    "transform": {
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": null,
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_1e78f83802082ac1dfa4aef4ef0b670c",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "10",
+    "name": "Area A — Process Train 1",
+    "class": "Area",
+    "status": "active",
+    "parent_id": "obj_ccf92b644a92663d4d0bc42f3804974b",
+    "transform": {
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max": [
+        60.0,
+        40.0,
+        15.0
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_e3e694d871ab1a6635ea50a7154dcbdb",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "SYS-PLT-COOLING",
+    "name": "Cooling Water System",
+    "class": "System",
+    "status": "active",
+    "parent_id": "obj_1e78f83802082ac1dfa4aef4ef0b670c",
+    "transform": {
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": null,
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_085d029287cca92b11734547fe201221",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-1001",
+    "name": "LINE-1001",
+    "class": "Line",
+    "status": "active",
+    "parent_id": "obj_e3e694d871ab1a6635ea50a7154dcbdb",
+    "transform": {
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": null,
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_11b2d63ea176a2b87191c1e903fccf70",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-1001-SEG-001",
+    "name": "LINE-1001-SEG-001",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_085d029287cca92b11734547fe201221",
+    "transform": {
+      "translation": [
+        1.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        0.0,
+        -0.053,
+        0.447
+      ],
+      "max": [
+        2.0,
+        0.053,
+        0.553
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "nominal_bore_mm": 100,
+      "pipe_class": "CS-A1A",
+      "insulated": false
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_dc710ab2e0d6cd527cea52522b933885",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-1001-SEG-002",
+    "name": "LINE-1001-SEG-002",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_085d029287cca92b11734547fe201221",
+    "transform": {
+      "translation": [
+        3.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        2.0,
+        -0.053,
+        0.447
+      ],
+      "max": [
+        4.0,
+        0.053,
+        0.553
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "pipe_class": "CS-A1A",
+      "insulated": false,
+      "nominal_bore_mm": 100
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_30bf7da142b7d2af8dba5ab607a0c349",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-1001-SEG-003",
+    "name": "LINE-1001-SEG-003",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_085d029287cca92b11734547fe201221",
+    "transform": {
+      "translation": [
+        5.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        4.0,
+        -0.053,
+        0.447
+      ],
+      "max": [
+        6.0,
+        0.053,
+        0.553
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "pipe_class": "CS-A1A",
+      "insulated": false,
+      "nominal_bore_mm": 100
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_e54a940f0ca3ce3b6c5e0411304b6b93",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-1001-SEG-004",
+    "name": "LINE-1001-SEG-004",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_085d029287cca92b11734547fe201221",
+    "transform": {
+      "translation": [
+        7.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        6.0,
+        -0.053,
+        0.447
+      ],
+      "max": [
+        8.0,
+        0.053,
+        0.553
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "nominal_bore_mm": 100,
+      "pipe_class": "CS-A1A",
+      "insulated": false
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_38ea81b1d12d9b52ba2b9c77beb647ba",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-1001-SEG-005",
+    "name": "LINE-1001-SEG-005",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_085d029287cca92b11734547fe201221",
+    "transform": {
+      "translation": [
+        9.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        8.0,
+        -0.053,
+        0.447
+      ],
+      "max": [
+        10.0,
+        0.053,
+        0.553
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "nominal_bore_mm": 100,
+      "pipe_class": "CS-A1A",
+      "insulated": false
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_9d40bd7ae1462cdd1629850ed49083bd",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-1001-SEG-006",
+    "name": "LINE-1001-SEG-006",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_085d029287cca92b11734547fe201221",
+    "transform": {
+      "translation": [
+        11.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        10.0,
+        -0.053,
+        0.447
+      ],
+      "max": [
+        12.0,
+        0.053,
+        0.553
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "pipe_class": "CS-A1A",
+      "nominal_bore_mm": 100,
+      "insulated": false
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_d8c036fbdcfe321b5813ecabd1a71b8e",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-1001-SEG-007",
+    "name": "LINE-1001-SEG-007",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_085d029287cca92b11734547fe201221",
+    "transform": {
+      "translation": [
+        13.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        12.0,
+        -0.053,
+        0.447
+      ],
+      "max": [
+        14.0,
+        0.053,
+        0.553
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "nominal_bore_mm": 100,
+      "pipe_class": "CS-A1A",
+      "insulated": false
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_119ed8982108483b62b7b2c13b55b0e4",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-1001-SEG-008",
+    "name": "LINE-1001-SEG-008",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_085d029287cca92b11734547fe201221",
+    "transform": {
+      "translation": [
+        15.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        14.0,
+        -0.053,
+        0.447
+      ],
+      "max": [
+        16.0,
+        0.053,
+        0.553
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "nominal_bore_mm": 100,
+      "pipe_class": "CS-A1A",
+      "insulated": false
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_5610d34fb50977490bcda9eb67c51595",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-1001-SEG-009",
+    "name": "LINE-1001-SEG-009",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_085d029287cca92b11734547fe201221",
+    "transform": {
+      "translation": [
+        17.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        16.0,
+        -0.053,
+        0.447
+      ],
+      "max": [
+        18.0,
+        0.053,
+        0.553
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "insulated": false,
+      "nominal_bore_mm": 100,
+      "pipe_class": "CS-A1A"
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_3fede2e8a70ee03500f343c9006f0f0e",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-1001-SEG-010",
+    "name": "LINE-1001-SEG-010",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_085d029287cca92b11734547fe201221",
+    "transform": {
+      "translation": [
+        19.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        18.0,
+        -0.053,
+        0.447
+      ],
+      "max": [
+        20.0,
+        0.053,
+        0.553
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "nominal_bore_mm": 100,
+      "pipe_class": "CS-A1A",
+      "insulated": false
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_1492ad2fc9072e0d5084e0077d90bcc2",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-1001-SEG-011",
+    "name": "LINE-1001-SEG-011",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_085d029287cca92b11734547fe201221",
+    "transform": {
+      "translation": [
+        21.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        20.0,
+        -0.053,
+        0.447
+      ],
+      "max": [
+        22.0,
+        0.053,
+        0.553
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "insulated": false,
+      "pipe_class": "CS-A1A",
+      "nominal_bore_mm": 100
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_a20a431a2dc2fd82d1383f68611a3de0",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-1001-SEG-012",
+    "name": "LINE-1001-SEG-012",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_085d029287cca92b11734547fe201221",
+    "transform": {
+      "translation": [
+        23.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        22.0,
+        -0.053,
+        0.447
+      ],
+      "max": [
+        24.0,
+        0.053,
+        0.553
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "insulated": false,
+      "nominal_bore_mm": 100,
+      "pipe_class": "CS-A1A"
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_7905b57e4bfacdafd2ded2f30c9e004a",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-1001-SEG-013",
+    "name": "LINE-1001-SEG-013",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_085d029287cca92b11734547fe201221",
+    "transform": {
+      "translation": [
+        25.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        24.0,
+        -0.053,
+        0.447
+      ],
+      "max": [
+        26.0,
+        0.053,
+        0.553
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "nominal_bore_mm": 100,
+      "pipe_class": "CS-A1A",
+      "insulated": false
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_dcd715e7e1ad9b6adf6908cef8dfcaf1",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-1001-SEG-014",
+    "name": "LINE-1001-SEG-014",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_085d029287cca92b11734547fe201221",
+    "transform": {
+      "translation": [
+        27.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        26.0,
+        -0.053,
+        0.447
+      ],
+      "max": [
+        28.0,
+        0.053,
+        0.553
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "pipe_class": "CS-A1A",
+      "nominal_bore_mm": 100,
+      "insulated": false
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_8dad7db97aba216b1b04dc652751e1c9",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-1001-SEG-015",
+    "name": "LINE-1001-SEG-015",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_085d029287cca92b11734547fe201221",
+    "transform": {
+      "translation": [
+        29.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        28.0,
+        -0.053,
+        0.447
+      ],
+      "max": [
+        30.0,
+        0.053,
+        0.553
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "pipe_class": "CS-A1A",
+      "insulated": false,
+      "nominal_bore_mm": 100
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_5f95ed3122723647201944347cd7138f",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-1001-SEG-016",
+    "name": "LINE-1001-SEG-016",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_085d029287cca92b11734547fe201221",
+    "transform": {
+      "translation": [
+        31.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        30.0,
+        -0.053,
+        0.447
+      ],
+      "max": [
+        32.0,
+        0.053,
+        0.553
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "nominal_bore_mm": 100,
+      "pipe_class": "CS-A1A",
+      "insulated": false
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_5436fb4960f6a505257f9024b222227f",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "V-1001A",
+    "name": "V-1001A",
+    "class": "Valve",
+    "status": "active",
+    "parent_id": "obj_085d029287cca92b11734547fe201221",
+    "transform": {
+      "translation": [
+        4.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        3.841,
+        -0.159,
+        0.394
+      ],
+      "max": [
+        4.159,
+        0.159,
+        0.606
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "valve_type": "GATE",
+      "actuator": "MANUAL",
+      "nominal_bore_mm": 100
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_a15292af362152358f397142b94587a3",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "V-1001B",
+    "name": "V-1001B",
+    "class": "Valve",
+    "status": "active",
+    "parent_id": "obj_085d029287cca92b11734547fe201221",
+    "transform": {
+      "translation": [
+        12.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        11.841,
+        -0.159,
+        0.394
+      ],
+      "max": [
+        12.159,
+        0.159,
+        0.606
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "nominal_bore_mm": 100,
+      "actuator": "MANUAL",
+      "valve_type": "GATE"
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_b8c8aa6466bf0d4bcea7028175226bb4",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "V-1001C",
+    "name": "V-1001C",
+    "class": "Valve",
+    "status": "active",
+    "parent_id": "obj_085d029287cca92b11734547fe201221",
+    "transform": {
+      "translation": [
+        20.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        19.841,
+        -0.159,
+        0.394
+      ],
+      "max": [
+        20.159,
+        0.159,
+        0.606
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "actuator": "MANUAL",
+      "valve_type": "GATE",
+      "nominal_bore_mm": 100
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_0bf89e75b9fd3b30b77c5228ccdc484a",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "V-1001D",
+    "name": "V-1001D",
+    "class": "Valve",
+    "status": "active",
+    "parent_id": "obj_085d029287cca92b11734547fe201221",
+    "transform": {
+      "translation": [
+        28.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        27.841,
+        -0.159,
+        0.394
+      ],
+      "max": [
+        28.159,
+        0.159,
+        0.606
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "actuator": "MANUAL",
+      "valve_type": "GATE",
+      "nominal_bore_mm": 100
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_db9d68ca6b96cbd442c404db5831d833",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-1002",
+    "name": "LINE-1002",
+    "class": "Line",
+    "status": "active",
+    "parent_id": "obj_e3e694d871ab1a6635ea50a7154dcbdb",
+    "transform": {
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": null,
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_97fadbcf986d4e16c55fa8f7c9a6e988",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-1002-SEG-001",
+    "name": "LINE-1002-SEG-001",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_db9d68ca6b96cbd442c404db5831d833",
+    "transform": {
+      "translation": [
+        5.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        4.0,
+        -0.043,
+        0.457
+      ],
+      "max": [
+        6.0,
+        0.043,
+        0.543
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "nominal_bore_mm": 80,
+      "insulated": false,
+      "pipe_class": "CS-A1A"
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_a4aee1e97d3c1e57d866fd1c566bed1c",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-1002-SEG-002",
+    "name": "LINE-1002-SEG-002",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_db9d68ca6b96cbd442c404db5831d833",
+    "transform": {
+      "translation": [
+        7.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        6.0,
+        -0.043,
+        0.457
+      ],
+      "max": [
+        8.0,
+        0.043,
+        0.543
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "nominal_bore_mm": 80,
+      "insulated": false,
+      "pipe_class": "CS-A1A"
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_3382873fff759c6c0a26fd7e36f7a91d",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-1002-SEG-003",
+    "name": "LINE-1002-SEG-003",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_db9d68ca6b96cbd442c404db5831d833",
+    "transform": {
+      "translation": [
+        9.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        8.0,
+        -0.043,
+        0.457
+      ],
+      "max": [
+        10.0,
+        0.043,
+        0.543
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "insulated": false,
+      "pipe_class": "CS-A1A",
+      "nominal_bore_mm": 80
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_d26d5fbdda0654ee3b44d2887e983bae",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-1002-SEG-004",
+    "name": "LINE-1002-SEG-004",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_db9d68ca6b96cbd442c404db5831d833",
+    "transform": {
+      "translation": [
+        11.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        10.0,
+        -0.043,
+        0.457
+      ],
+      "max": [
+        12.0,
+        0.043,
+        0.543
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "insulated": false,
+      "nominal_bore_mm": 80,
+      "pipe_class": "CS-A1A"
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_b95173574d8337a01adacaa72398489b",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-1002-SEG-005",
+    "name": "LINE-1002-SEG-005",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_db9d68ca6b96cbd442c404db5831d833",
+    "transform": {
+      "translation": [
+        13.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        12.0,
+        -0.043,
+        0.457
+      ],
+      "max": [
+        14.0,
+        0.043,
+        0.543
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "nominal_bore_mm": 80,
+      "pipe_class": "CS-A1A",
+      "insulated": false
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_f9a738c1525e9a9c89f6bb9343b2f0f4",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-1002-SEG-006",
+    "name": "LINE-1002-SEG-006",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_db9d68ca6b96cbd442c404db5831d833",
+    "transform": {
+      "translation": [
+        15.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        14.0,
+        -0.043,
+        0.457
+      ],
+      "max": [
+        16.0,
+        0.043,
+        0.543
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "nominal_bore_mm": 80,
+      "insulated": false,
+      "pipe_class": "CS-A1A"
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_838b7cf1f2e243e59acd3d2c813563a0",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-1002-SEG-007",
+    "name": "LINE-1002-SEG-007",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_db9d68ca6b96cbd442c404db5831d833",
+    "transform": {
+      "translation": [
+        17.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        16.0,
+        -0.043,
+        0.457
+      ],
+      "max": [
+        18.0,
+        0.043,
+        0.543
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "insulated": false,
+      "pipe_class": "CS-A1A",
+      "nominal_bore_mm": 80
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_86d06ec11e2149c21528ed5dca07e401",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-1002-SEG-008",
+    "name": "LINE-1002-SEG-008",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_db9d68ca6b96cbd442c404db5831d833",
+    "transform": {
+      "translation": [
+        19.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        18.0,
+        -0.043,
+        0.457
+      ],
+      "max": [
+        20.0,
+        0.043,
+        0.543
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "pipe_class": "CS-A1A",
+      "nominal_bore_mm": 80,
+      "insulated": false
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_1d9f147375610026a600da7bd1d1703b",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-1002-SEG-009",
+    "name": "LINE-1002-SEG-009",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_db9d68ca6b96cbd442c404db5831d833",
+    "transform": {
+      "translation": [
+        21.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        20.0,
+        -0.043,
+        0.457
+      ],
+      "max": [
+        22.0,
+        0.043,
+        0.543
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "insulated": false,
+      "pipe_class": "CS-A1A",
+      "nominal_bore_mm": 80
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_602d18010a039130742d74d4f508a767",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-1002-SEG-010",
+    "name": "LINE-1002-SEG-010",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_db9d68ca6b96cbd442c404db5831d833",
+    "transform": {
+      "translation": [
+        23.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        22.0,
+        -0.043,
+        0.457
+      ],
+      "max": [
+        24.0,
+        0.043,
+        0.543
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "insulated": false,
+      "nominal_bore_mm": 80,
+      "pipe_class": "CS-A1A"
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_79b915f4ecc0cff8c1dbd112e9a0f04e",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-1002-SEG-011",
+    "name": "LINE-1002-SEG-011",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_db9d68ca6b96cbd442c404db5831d833",
+    "transform": {
+      "translation": [
+        25.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        24.0,
+        -0.043,
+        0.457
+      ],
+      "max": [
+        26.0,
+        0.043,
+        0.543
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "pipe_class": "CS-A1A",
+      "insulated": false,
+      "nominal_bore_mm": 80
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_fd078a1cec0885f2370a6ecd0ae6f124",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-1002-SEG-012",
+    "name": "LINE-1002-SEG-012",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_db9d68ca6b96cbd442c404db5831d833",
+    "transform": {
+      "translation": [
+        27.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        26.0,
+        -0.043,
+        0.457
+      ],
+      "max": [
+        28.0,
+        0.043,
+        0.543
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "nominal_bore_mm": 80,
+      "pipe_class": "CS-A1A",
+      "insulated": false
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_ece9c858080e26fbdadc557953285c8b",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "V-1002A",
+    "name": "V-1002A",
+    "class": "Valve",
+    "status": "active",
+    "parent_id": "obj_db9d68ca6b96cbd442c404db5831d833",
+    "transform": {
+      "translation": [
+        7.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        6.871,
+        -0.129,
+        0.41400000000000003
+      ],
+      "max": [
+        7.129,
+        0.129,
+        0.586
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "actuator": "MANUAL",
+      "nominal_bore_mm": 80,
+      "valve_type": "GATE"
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_c50d4170b264d21fb10aeb4fcb8aa3f5",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "V-1002B",
+    "name": "V-1002B",
+    "class": "Valve",
+    "status": "active",
+    "parent_id": "obj_db9d68ca6b96cbd442c404db5831d833",
+    "transform": {
+      "translation": [
+        13.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        12.871,
+        -0.129,
+        0.41400000000000003
+      ],
+      "max": [
+        13.129,
+        0.129,
+        0.586
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "actuator": "MANUAL",
+      "nominal_bore_mm": 80,
+      "valve_type": "GATE"
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_9c5a3a56814296558a90dea0041be894",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "V-1002C",
+    "name": "V-1002C",
+    "class": "Valve",
+    "status": "active",
+    "parent_id": "obj_db9d68ca6b96cbd442c404db5831d833",
+    "transform": {
+      "translation": [
+        19.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        18.871,
+        -0.129,
+        0.41400000000000003
+      ],
+      "max": [
+        19.129,
+        0.129,
+        0.586
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "actuator": "MANUAL",
+      "valve_type": "GATE",
+      "nominal_bore_mm": 80
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_05605f08a60d8939eff3ef743f0d7a1a",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "V-1002D",
+    "name": "V-1002D",
+    "class": "Valve",
+    "status": "active",
+    "parent_id": "obj_db9d68ca6b96cbd442c404db5831d833",
+    "transform": {
+      "translation": [
+        25.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        24.871,
+        -0.129,
+        0.41400000000000003
+      ],
+      "max": [
+        25.129,
+        0.129,
+        0.586
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "actuator": "MANUAL",
+      "valve_type": "GATE",
+      "nominal_bore_mm": 80
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_8745dea8547ed3a097ba30ec96342f98",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "P-1001",
+    "name": "P-1001",
+    "class": "Pump",
+    "status": "active",
+    "parent_id": "obj_e3e694d871ab1a6635ea50a7154dcbdb",
+    "transform": {
+      "translation": [
+        2.0,
+        20.0,
+        0.35
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        1.65,
+        19.65,
+        0.0
+      ],
+      "max": [
+        2.35,
+        20.35,
+        0.7
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "design_pressure_bar": 6.0,
+      "design_temperature_c": 45.0,
+      "power_kw": 22.0,
+      "fluid": "COOLING_WATER"
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_dad2df050a4f6d8bc8e49f0d3c1c1346",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "TK-1001",
+    "name": "TK-1001",
+    "class": "Tank",
+    "status": "active",
+    "parent_id": "obj_e3e694d871ab1a6635ea50a7154dcbdb",
+    "transform": {
+      "translation": [
+        15.0,
+        24.0,
+        5.030795991604359
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        12.484602004197821,
+        21.48460200419782,
+        0.0
+      ],
+      "max": [
+        17.51539799580218,
+        26.51539799580218,
+        10.061591983208718
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "fluid": "COOLING_WATER",
+      "volume_m3": 100.0
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_ec4044d3bb8a51e382d03e51c1c342b3",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "FT-1001",
+    "name": "FT-1001",
+    "class": "Instrument",
+    "status": "active",
+    "parent_id": "obj_e3e694d871ab1a6635ea50a7154dcbdb",
+    "transform": {
+      "translation": [
+        0.0,
+        0.0,
+        1.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        -0.1,
+        -0.1,
+        1.35
+      ],
+      "max": [
+        0.1,
+        0.1,
+        1.65
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "instrument_type": "FT"
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_084220f613f6a35c1120af420db35ec5",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "PT-1002",
+    "name": "PT-1002",
+    "class": "Instrument",
+    "status": "active",
+    "parent_id": "obj_e3e694d871ab1a6635ea50a7154dcbdb",
+    "transform": {
+      "translation": [
+        2.0,
+        0.0,
+        1.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        1.9,
+        -0.1,
+        1.35
+      ],
+      "max": [
+        2.1,
+        0.1,
+        1.65
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "instrument_type": "PT"
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_70f654f21a9d633ae7e2e300823d9d02",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "TT-1003",
+    "name": "TT-1003",
+    "class": "Instrument",
+    "status": "active",
+    "parent_id": "obj_e3e694d871ab1a6635ea50a7154dcbdb",
+    "transform": {
+      "translation": [
+        4.0,
+        0.0,
+        1.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        3.9,
+        -0.1,
+        1.35
+      ],
+      "max": [
+        4.1,
+        0.1,
+        1.65
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "instrument_type": "TT"
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_997cc9fb1f5b4cf778da43f055d84bc0",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LT-1004",
+    "name": "LT-1004",
+    "class": "Instrument",
+    "status": "active",
+    "parent_id": "obj_e3e694d871ab1a6635ea50a7154dcbdb",
+    "transform": {
+      "translation": [
+        6.0,
+        0.0,
+        1.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        5.9,
+        -0.1,
+        1.35
+      ],
+      "max": [
+        6.1,
+        0.1,
+        1.65
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "instrument_type": "LT"
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_73fdfdafe3aa261da2809d71a245edf3",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "SYS-PLT-PROCESS",
+    "name": "Main Process System",
+    "class": "System",
+    "status": "active",
+    "parent_id": "obj_1e78f83802082ac1dfa4aef4ef0b670c",
+    "transform": {
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": null,
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_caa235c89547589394aa6207f368e029",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-2001",
+    "name": "LINE-2001",
+    "class": "Line",
+    "status": "active",
+    "parent_id": "obj_73fdfdafe3aa261da2809d71a245edf3",
+    "transform": {
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": null,
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_db662818e5ee34f6d60bc97e51acb3cc",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-2001-SEG-001",
+    "name": "LINE-2001-SEG-001",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_caa235c89547589394aa6207f368e029",
+    "transform": {
+      "translation": [
+        1.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        0.0,
+        -0.078,
+        0.422
+      ],
+      "max": [
+        2.0,
+        0.078,
+        0.578
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "pipe_class": "SS-B2A",
+      "nominal_bore_mm": 150,
+      "insulated": true
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_c7cfff2c6192f8dd42a4fe36ff56139f",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-2001-SEG-002",
+    "name": "LINE-2001-SEG-002",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_caa235c89547589394aa6207f368e029",
+    "transform": {
+      "translation": [
+        3.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        2.0,
+        -0.078,
+        0.422
+      ],
+      "max": [
+        4.0,
+        0.078,
+        0.578
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "nominal_bore_mm": 150,
+      "pipe_class": "SS-B2A",
+      "insulated": true
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_efa66d80926599bfa00fd67446e40767",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-2001-SEG-003",
+    "name": "LINE-2001-SEG-003",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_caa235c89547589394aa6207f368e029",
+    "transform": {
+      "translation": [
+        5.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        4.0,
+        -0.078,
+        0.422
+      ],
+      "max": [
+        6.0,
+        0.078,
+        0.578
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "nominal_bore_mm": 150,
+      "pipe_class": "SS-B2A",
+      "insulated": true
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_1dd7e4aa5cc01f1d5863bc72ea4c04d3",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-2001-SEG-004",
+    "name": "LINE-2001-SEG-004",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_caa235c89547589394aa6207f368e029",
+    "transform": {
+      "translation": [
+        7.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        6.0,
+        -0.078,
+        0.422
+      ],
+      "max": [
+        8.0,
+        0.078,
+        0.578
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "insulated": true,
+      "nominal_bore_mm": 150,
+      "pipe_class": "SS-B2A"
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_710832f1f6cbbfcfb4f28d5a3fadc143",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-2001-SEG-005",
+    "name": "LINE-2001-SEG-005",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_caa235c89547589394aa6207f368e029",
+    "transform": {
+      "translation": [
+        9.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        8.0,
+        -0.078,
+        0.422
+      ],
+      "max": [
+        10.0,
+        0.078,
+        0.578
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "pipe_class": "SS-B2A",
+      "nominal_bore_mm": 150,
+      "insulated": true
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_42cdb75a104cc77764f475124c7f60f2",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-2001-SEG-006",
+    "name": "LINE-2001-SEG-006",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_caa235c89547589394aa6207f368e029",
+    "transform": {
+      "translation": [
+        11.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        10.0,
+        -0.078,
+        0.422
+      ],
+      "max": [
+        12.0,
+        0.078,
+        0.578
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "nominal_bore_mm": 150,
+      "pipe_class": "SS-B2A",
+      "insulated": true
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_6a9a93560c7214c66037ec66c0ec431c",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-2001-SEG-007",
+    "name": "LINE-2001-SEG-007",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_caa235c89547589394aa6207f368e029",
+    "transform": {
+      "translation": [
+        13.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        12.0,
+        -0.078,
+        0.422
+      ],
+      "max": [
+        14.0,
+        0.078,
+        0.578
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "pipe_class": "SS-B2A",
+      "nominal_bore_mm": 150,
+      "insulated": true
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_e8bccda8690c1ccff28fae3f31281f9a",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-2001-SEG-008",
+    "name": "LINE-2001-SEG-008",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_caa235c89547589394aa6207f368e029",
+    "transform": {
+      "translation": [
+        15.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        14.0,
+        -0.078,
+        0.422
+      ],
+      "max": [
+        16.0,
+        0.078,
+        0.578
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "insulated": true,
+      "pipe_class": "SS-B2A",
+      "nominal_bore_mm": 150
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_2fc55d32b477ddefa5ca543a71a4f8ae",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-2001-SEG-009",
+    "name": "LINE-2001-SEG-009",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_caa235c89547589394aa6207f368e029",
+    "transform": {
+      "translation": [
+        17.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        16.0,
+        -0.078,
+        0.422
+      ],
+      "max": [
+        18.0,
+        0.078,
+        0.578
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "insulated": true,
+      "pipe_class": "SS-B2A",
+      "nominal_bore_mm": 150
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_d4ebd6c20d62bab13d9dd2f45a8c6b2c",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-2001-SEG-010",
+    "name": "LINE-2001-SEG-010",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_caa235c89547589394aa6207f368e029",
+    "transform": {
+      "translation": [
+        19.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        18.0,
+        -0.078,
+        0.422
+      ],
+      "max": [
+        20.0,
+        0.078,
+        0.578
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "nominal_bore_mm": 150,
+      "insulated": true,
+      "pipe_class": "SS-B2A"
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_a42ef2f02823aff55d2179db1db86285",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-2001-SEG-011",
+    "name": "LINE-2001-SEG-011",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_caa235c89547589394aa6207f368e029",
+    "transform": {
+      "translation": [
+        21.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        20.0,
+        -0.078,
+        0.422
+      ],
+      "max": [
+        22.0,
+        0.078,
+        0.578
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "nominal_bore_mm": 150,
+      "insulated": true,
+      "pipe_class": "SS-B2A"
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_e69a06c24a2203e3470640f653123fc5",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-2001-SEG-012",
+    "name": "LINE-2001-SEG-012",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_caa235c89547589394aa6207f368e029",
+    "transform": {
+      "translation": [
+        23.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        22.0,
+        -0.078,
+        0.422
+      ],
+      "max": [
+        24.0,
+        0.078,
+        0.578
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "nominal_bore_mm": 150,
+      "pipe_class": "SS-B2A",
+      "insulated": true
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_0969b8fc8a7dd154cdf5544f65d673a3",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-2001-SEG-013",
+    "name": "LINE-2001-SEG-013",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_caa235c89547589394aa6207f368e029",
+    "transform": {
+      "translation": [
+        25.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        24.0,
+        -0.078,
+        0.422
+      ],
+      "max": [
+        26.0,
+        0.078,
+        0.578
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "pipe_class": "SS-B2A",
+      "insulated": true,
+      "nominal_bore_mm": 150
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_96f2f62509e5a1f658c6d76bb7b53b59",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-2001-SEG-014",
+    "name": "LINE-2001-SEG-014",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_caa235c89547589394aa6207f368e029",
+    "transform": {
+      "translation": [
+        27.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        26.0,
+        -0.078,
+        0.422
+      ],
+      "max": [
+        28.0,
+        0.078,
+        0.578
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "nominal_bore_mm": 150,
+      "pipe_class": "SS-B2A",
+      "insulated": true
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_87f7d061ce843b65ec7c91c272946ef1",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-2001-SEG-015",
+    "name": "LINE-2001-SEG-015",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_caa235c89547589394aa6207f368e029",
+    "transform": {
+      "translation": [
+        29.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        28.0,
+        -0.078,
+        0.422
+      ],
+      "max": [
+        30.0,
+        0.078,
+        0.578
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "insulated": true,
+      "nominal_bore_mm": 150,
+      "pipe_class": "SS-B2A"
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_36be43d1f6d3f1583dbda0f9533638aa",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-2001-SEG-016",
+    "name": "LINE-2001-SEG-016",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_caa235c89547589394aa6207f368e029",
+    "transform": {
+      "translation": [
+        31.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        30.0,
+        -0.078,
+        0.422
+      ],
+      "max": [
+        32.0,
+        0.078,
+        0.578
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "pipe_class": "SS-B2A",
+      "nominal_bore_mm": 150,
+      "insulated": true
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_bfa15f6af90427b45639127881e9e456",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-2001-SEG-017",
+    "name": "LINE-2001-SEG-017",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_caa235c89547589394aa6207f368e029",
+    "transform": {
+      "translation": [
+        33.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        32.0,
+        -0.078,
+        0.422
+      ],
+      "max": [
+        34.0,
+        0.078,
+        0.578
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "nominal_bore_mm": 150,
+      "insulated": true,
+      "pipe_class": "SS-B2A"
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_5836fcdd7f99fbc97dc184fa3ea6421b",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-2001-SEG-018",
+    "name": "LINE-2001-SEG-018",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_caa235c89547589394aa6207f368e029",
+    "transform": {
+      "translation": [
+        35.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        34.0,
+        -0.078,
+        0.422
+      ],
+      "max": [
+        36.0,
+        0.078,
+        0.578
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "insulated": true,
+      "nominal_bore_mm": 150,
+      "pipe_class": "SS-B2A"
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_e8bfb51f27de8ce50c50f44b58ec9f9e",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "V-10101A",
+    "name": "V-10101A",
+    "class": "Valve",
+    "status": "active",
+    "parent_id": "obj_caa235c89547589394aa6207f368e029",
+    "transform": {
+      "translation": [
+        4.5,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        4.266,
+        -0.23399999999999999,
+        0.344
+      ],
+      "max": [
+        4.734,
+        0.23399999999999999,
+        0.656
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "actuator": "MANUAL",
+      "nominal_bore_mm": 150,
+      "valve_type": "GATE"
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_9873a143029052739bfc6aa51b6981d8",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "V-10101B",
+    "name": "V-10101B",
+    "class": "Valve",
+    "status": "active",
+    "parent_id": "obj_caa235c89547589394aa6207f368e029",
+    "transform": {
+      "translation": [
+        13.5,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        13.266,
+        -0.23399999999999999,
+        0.344
+      ],
+      "max": [
+        13.734,
+        0.23399999999999999,
+        0.656
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "valve_type": "GATE",
+      "nominal_bore_mm": 150,
+      "actuator": "MANUAL"
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_378ecf02f6cd7626f3db4e9881fb3639",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "V-10101C",
+    "name": "V-10101C",
+    "class": "Valve",
+    "status": "active",
+    "parent_id": "obj_caa235c89547589394aa6207f368e029",
+    "transform": {
+      "translation": [
+        22.5,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        22.266,
+        -0.23399999999999999,
+        0.344
+      ],
+      "max": [
+        22.734,
+        0.23399999999999999,
+        0.656
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "actuator": "MANUAL",
+      "valve_type": "GATE",
+      "nominal_bore_mm": 150
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_c131576b9bee4efda6ebca6ebefdc81b",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "V-10101D",
+    "name": "V-10101D",
+    "class": "Valve",
+    "status": "active",
+    "parent_id": "obj_caa235c89547589394aa6207f368e029",
+    "transform": {
+      "translation": [
+        31.5,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        31.266,
+        -0.23399999999999999,
+        0.344
+      ],
+      "max": [
+        31.734,
+        0.23399999999999999,
+        0.656
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "actuator": "MANUAL",
+      "valve_type": "GATE",
+      "nominal_bore_mm": 150
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_1417bd2c1ad4dc152769c8590d479cbf",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-2002",
+    "name": "LINE-2002",
+    "class": "Line",
+    "status": "active",
+    "parent_id": "obj_73fdfdafe3aa261da2809d71a245edf3",
+    "transform": {
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": null,
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_f52b3241322cc0b8b7c25329e4d76d59",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-2002-SEG-001",
+    "name": "LINE-2002-SEG-001",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_1417bd2c1ad4dc152769c8590d479cbf",
+    "transform": {
+      "translation": [
+        5.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        4.0,
+        -0.028,
+        0.472
+      ],
+      "max": [
+        6.0,
+        0.028,
+        0.528
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "pipe_class": "SS-B2A",
+      "insulated": true,
+      "nominal_bore_mm": 50
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_c855c790bc72aa0038a6efd5db89dc81",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-2002-SEG-002",
+    "name": "LINE-2002-SEG-002",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_1417bd2c1ad4dc152769c8590d479cbf",
+    "transform": {
+      "translation": [
+        7.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        6.0,
+        -0.028,
+        0.472
+      ],
+      "max": [
+        8.0,
+        0.028,
+        0.528
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "insulated": true,
+      "nominal_bore_mm": 50,
+      "pipe_class": "SS-B2A"
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_d30011592de092bbf75a5608ae700a6a",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-2002-SEG-003",
+    "name": "LINE-2002-SEG-003",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_1417bd2c1ad4dc152769c8590d479cbf",
+    "transform": {
+      "translation": [
+        9.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        8.0,
+        -0.028,
+        0.472
+      ],
+      "max": [
+        10.0,
+        0.028,
+        0.528
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "insulated": true,
+      "nominal_bore_mm": 50,
+      "pipe_class": "SS-B2A"
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_61c63645babbfa8b795516ab6b8ef5d2",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-2002-SEG-004",
+    "name": "LINE-2002-SEG-004",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_1417bd2c1ad4dc152769c8590d479cbf",
+    "transform": {
+      "translation": [
+        11.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        10.0,
+        -0.028,
+        0.472
+      ],
+      "max": [
+        12.0,
+        0.028,
+        0.528
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "nominal_bore_mm": 50,
+      "pipe_class": "SS-B2A",
+      "insulated": true
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_366db97f57978422f2912a97dd655667",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-2002-SEG-005",
+    "name": "LINE-2002-SEG-005",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_1417bd2c1ad4dc152769c8590d479cbf",
+    "transform": {
+      "translation": [
+        13.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        12.0,
+        -0.028,
+        0.472
+      ],
+      "max": [
+        14.0,
+        0.028,
+        0.528
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "pipe_class": "SS-B2A",
+      "nominal_bore_mm": 50,
+      "insulated": true
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_765f70476ea720c74e7d2950cf8b64a6",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-2002-SEG-006",
+    "name": "LINE-2002-SEG-006",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_1417bd2c1ad4dc152769c8590d479cbf",
+    "transform": {
+      "translation": [
+        15.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        14.0,
+        -0.028,
+        0.472
+      ],
+      "max": [
+        16.0,
+        0.028,
+        0.528
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "pipe_class": "SS-B2A",
+      "insulated": true,
+      "nominal_bore_mm": 50
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_5d073edfe4e33bfe2c9acbd44b57b1d7",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-2002-SEG-007",
+    "name": "LINE-2002-SEG-007",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_1417bd2c1ad4dc152769c8590d479cbf",
+    "transform": {
+      "translation": [
+        17.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        16.0,
+        -0.028,
+        0.472
+      ],
+      "max": [
+        18.0,
+        0.028,
+        0.528
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "insulated": true,
+      "nominal_bore_mm": 50,
+      "pipe_class": "SS-B2A"
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_e34e2c3308aab5fe2cd0917790d07d63",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-2002-SEG-008",
+    "name": "LINE-2002-SEG-008",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_1417bd2c1ad4dc152769c8590d479cbf",
+    "transform": {
+      "translation": [
+        19.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        18.0,
+        -0.028,
+        0.472
+      ],
+      "max": [
+        20.0,
+        0.028,
+        0.528
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "nominal_bore_mm": 50,
+      "pipe_class": "SS-B2A",
+      "insulated": true
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_fefda1d853bd60d277f0594f5f9a0509",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "V-10102A",
+    "name": "V-10102A",
+    "class": "Valve",
+    "status": "active",
+    "parent_id": "obj_1417bd2c1ad4dc152769c8590d479cbf",
+    "transform": {
+      "translation": [
+        6.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        5.916,
+        -0.084,
+        0.444
+      ],
+      "max": [
+        6.084,
+        0.084,
+        0.556
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "actuator": "MANUAL",
+      "valve_type": "GATE",
+      "nominal_bore_mm": 50
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_8f0582c02ab7b06af711446b72267b75",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "V-10102B",
+    "name": "V-10102B",
+    "class": "Valve",
+    "status": "active",
+    "parent_id": "obj_1417bd2c1ad4dc152769c8590d479cbf",
+    "transform": {
+      "translation": [
+        10.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        9.916,
+        -0.084,
+        0.444
+      ],
+      "max": [
+        10.084,
+        0.084,
+        0.556
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "actuator": "MANUAL",
+      "nominal_bore_mm": 50,
+      "valve_type": "GATE"
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_22cdcc1224b5fb3b2b13ae293b7cba32",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "V-10102C",
+    "name": "V-10102C",
+    "class": "Valve",
+    "status": "active",
+    "parent_id": "obj_1417bd2c1ad4dc152769c8590d479cbf",
+    "transform": {
+      "translation": [
+        14.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        13.916,
+        -0.084,
+        0.444
+      ],
+      "max": [
+        14.084,
+        0.084,
+        0.556
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "valve_type": "GATE",
+      "actuator": "MANUAL",
+      "nominal_bore_mm": 50
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_2f793a8169979ddaf6ffbd0eb600796c",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "V-10102D",
+    "name": "V-10102D",
+    "class": "Valve",
+    "status": "active",
+    "parent_id": "obj_1417bd2c1ad4dc152769c8590d479cbf",
+    "transform": {
+      "translation": [
+        18.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        17.916,
+        -0.084,
+        0.444
+      ],
+      "max": [
+        18.084,
+        0.084,
+        0.556
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "valve_type": "GATE",
+      "actuator": "MANUAL",
+      "nominal_bore_mm": 50
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_81dff8556c233e8c05eab6c404b5ec53",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "P-10101",
+    "name": "P-10101",
+    "class": "Pump",
+    "status": "active",
+    "parent_id": "obj_73fdfdafe3aa261da2809d71a245edf3",
+    "transform": {
+      "translation": [
+        2.0,
+        20.0,
+        0.35
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        1.65,
+        19.65,
+        0.0
+      ],
+      "max": [
+        2.35,
+        20.35,
+        0.7
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "power_kw": 22.0,
+      "design_pressure_bar": 25.0,
+      "fluid": "HYDROCARBON",
+      "design_temperature_c": 120.0
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_6b4674df97204cfe0f211b5fa710dd82",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "TK-10101",
+    "name": "TK-10101",
+    "class": "Tank",
+    "status": "active",
+    "parent_id": "obj_73fdfdafe3aa261da2809d71a245edf3",
+    "transform": {
+      "translation": [
+        15.0,
+        24.0,
+        5.030795991604359
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        12.484602004197821,
+        21.48460200419782,
+        0.0
+      ],
+      "max": [
+        17.51539799580218,
+        26.51539799580218,
+        10.061591983208718
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "volume_m3": 100.0,
+      "fluid": "HYDROCARBON"
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_c10ca15ad0bd7db5941b8deaed87cbd0",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "FT-10101",
+    "name": "FT-10101",
+    "class": "Instrument",
+    "status": "active",
+    "parent_id": "obj_73fdfdafe3aa261da2809d71a245edf3",
+    "transform": {
+      "translation": [
+        0.0,
+        0.0,
+        1.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        -0.1,
+        -0.1,
+        1.35
+      ],
+      "max": [
+        0.1,
+        0.1,
+        1.65
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "instrument_type": "FT"
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_0952e45b8c7212a2017adec9b1ed28b0",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "PT-10102",
+    "name": "PT-10102",
+    "class": "Instrument",
+    "status": "active",
+    "parent_id": "obj_73fdfdafe3aa261da2809d71a245edf3",
+    "transform": {
+      "translation": [
+        2.0,
+        0.0,
+        1.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        1.9,
+        -0.1,
+        1.35
+      ],
+      "max": [
+        2.1,
+        0.1,
+        1.65
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "instrument_type": "PT"
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_b7f957c244cd5691d052a7cf992f8a8e",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "TT-10103",
+    "name": "TT-10103",
+    "class": "Instrument",
+    "status": "active",
+    "parent_id": "obj_73fdfdafe3aa261da2809d71a245edf3",
+    "transform": {
+      "translation": [
+        4.0,
+        0.0,
+        1.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        3.9,
+        -0.1,
+        1.35
+      ],
+      "max": [
+        4.1,
+        0.1,
+        1.65
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "instrument_type": "TT"
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_51ce5c2e1831ed1397c397939bb1cf40",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LT-10104",
+    "name": "LT-10104",
+    "class": "Instrument",
+    "status": "active",
+    "parent_id": "obj_73fdfdafe3aa261da2809d71a245edf3",
+    "transform": {
+      "translation": [
+        6.0,
+        0.0,
+        1.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        5.9,
+        -0.1,
+        1.35
+      ],
+      "max": [
+        6.1,
+        0.1,
+        1.65
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "instrument_type": "LT"
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_64f71bc6b83fde4a017f1594c2bd259f",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "10-SUPP-001",
+    "name": "10-SUPP-001",
+    "class": "Support",
+    "status": "active",
+    "parent_id": "obj_1e78f83802082ac1dfa4aef4ef0b670c",
+    "transform": {
+      "translation": [
+        0.0,
+        0.05,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        -0.05,
+        0.0,
+        0.0
+      ],
+      "max": [
+        0.05,
+        0.1,
+        2.0
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_02b6cc579e4c74779f4472cdc5761406",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "10-SUPP-002",
+    "name": "10-SUPP-002",
+    "class": "Support",
+    "status": "active",
+    "parent_id": "obj_1e78f83802082ac1dfa4aef4ef0b670c",
+    "transform": {
+      "translation": [
+        1.5,
+        0.05,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        1.45,
+        0.0,
+        0.0
+      ],
+      "max": [
+        1.55,
+        0.1,
+        2.0
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_ea9cd2057168282731933587122e1603",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "10-SUPP-003",
+    "name": "10-SUPP-003",
+    "class": "Support",
+    "status": "active",
+    "parent_id": "obj_1e78f83802082ac1dfa4aef4ef0b670c",
+    "transform": {
+      "translation": [
+        3.0,
+        0.05,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        2.95,
+        0.0,
+        0.0
+      ],
+      "max": [
+        3.05,
+        0.1,
+        2.0
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_04c7b5190135789768e298e5b500f393",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "10-SUPP-004",
+    "name": "10-SUPP-004",
+    "class": "Support",
+    "status": "active",
+    "parent_id": "obj_1e78f83802082ac1dfa4aef4ef0b670c",
+    "transform": {
+      "translation": [
+        4.5,
+        0.05,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        4.45,
+        0.0,
+        0.0
+      ],
+      "max": [
+        4.55,
+        0.1,
+        2.0
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_3c1a5d23a4e7ab2fea4711ea7fb22f4b",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "10-SUPP-005",
+    "name": "10-SUPP-005",
+    "class": "Support",
+    "status": "active",
+    "parent_id": "obj_1e78f83802082ac1dfa4aef4ef0b670c",
+    "transform": {
+      "translation": [
+        6.0,
+        0.05,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        5.95,
+        0.0,
+        0.0
+      ],
+      "max": [
+        6.05,
+        0.1,
+        2.0
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_aa3505955368f6e572f74fdb9f8b7c09",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "10-SUPP-006",
+    "name": "10-SUPP-006",
+    "class": "Support",
+    "status": "active",
+    "parent_id": "obj_1e78f83802082ac1dfa4aef4ef0b670c",
+    "transform": {
+      "translation": [
+        7.5,
+        0.05,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        7.45,
+        0.0,
+        0.0
+      ],
+      "max": [
+        7.55,
+        0.1,
+        2.0
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_2f5849776819890528c5154d0ee747f4",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "10-SUPP-007",
+    "name": "10-SUPP-007",
+    "class": "Support",
+    "status": "active",
+    "parent_id": "obj_1e78f83802082ac1dfa4aef4ef0b670c",
+    "transform": {
+      "translation": [
+        9.0,
+        0.05,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        8.95,
+        0.0,
+        0.0
+      ],
+      "max": [
+        9.05,
+        0.1,
+        2.0
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_5402c3ee5033f49e91550a3b52a5be3a",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "10-SUPP-008",
+    "name": "10-SUPP-008",
+    "class": "Support",
+    "status": "active",
+    "parent_id": "obj_1e78f83802082ac1dfa4aef4ef0b670c",
+    "transform": {
+      "translation": [
+        10.5,
+        0.05,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        10.45,
+        0.0,
+        0.0
+      ],
+      "max": [
+        10.55,
+        0.1,
+        2.0
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_1e130b90c7492cd16bf3964065fbb8d6",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "10-SUPP-009",
+    "name": "10-SUPP-009",
+    "class": "Support",
+    "status": "active",
+    "parent_id": "obj_1e78f83802082ac1dfa4aef4ef0b670c",
+    "transform": {
+      "translation": [
+        12.0,
+        0.05,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        11.95,
+        0.0,
+        0.0
+      ],
+      "max": [
+        12.05,
+        0.1,
+        2.0
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_9f8d7f354ca29cfb4e4de13193c0a681",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "10-SUPP-010",
+    "name": "10-SUPP-010",
+    "class": "Support",
+    "status": "active",
+    "parent_id": "obj_1e78f83802082ac1dfa4aef4ef0b670c",
+    "transform": {
+      "translation": [
+        13.5,
+        0.05,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        13.45,
+        0.0,
+        0.0
+      ],
+      "max": [
+        13.55,
+        0.1,
+        2.0
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_df7d008c5f2e9cf87ba33b504250b754",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "10-SUPP-011",
+    "name": "10-SUPP-011",
+    "class": "Support",
+    "status": "active",
+    "parent_id": "obj_1e78f83802082ac1dfa4aef4ef0b670c",
+    "transform": {
+      "translation": [
+        15.0,
+        0.05,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        14.95,
+        0.0,
+        0.0
+      ],
+      "max": [
+        15.05,
+        0.1,
+        2.0
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_a8b7dcf9df33e8d59d178f32dd4bb624",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "10-SUPP-012",
+    "name": "10-SUPP-012",
+    "class": "Support",
+    "status": "active",
+    "parent_id": "obj_1e78f83802082ac1dfa4aef4ef0b670c",
+    "transform": {
+      "translation": [
+        16.5,
+        0.05,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        16.45,
+        0.0,
+        0.0
+      ],
+      "max": [
+        16.55,
+        0.1,
+        2.0
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_baf95cd4eea1c346722cefd317761215",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "10-SUPP-013",
+    "name": "10-SUPP-013",
+    "class": "Support",
+    "status": "active",
+    "parent_id": "obj_1e78f83802082ac1dfa4aef4ef0b670c",
+    "transform": {
+      "translation": [
+        18.0,
+        0.05,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        17.95,
+        0.0,
+        0.0
+      ],
+      "max": [
+        18.05,
+        0.1,
+        2.0
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_c97cbb5725e680676e0e8ab96f465cbb",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "10-SUPP-014",
+    "name": "10-SUPP-014",
+    "class": "Support",
+    "status": "active",
+    "parent_id": "obj_1e78f83802082ac1dfa4aef4ef0b670c",
+    "transform": {
+      "translation": [
+        19.5,
+        0.05,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        19.45,
+        0.0,
+        0.0
+      ],
+      "max": [
+        19.55,
+        0.1,
+        2.0
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_a833a06475111b04bafaffeba0f844d8",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "10-SUPP-015",
+    "name": "10-SUPP-015",
+    "class": "Support",
+    "status": "active",
+    "parent_id": "obj_1e78f83802082ac1dfa4aef4ef0b670c",
+    "transform": {
+      "translation": [
+        21.0,
+        0.05,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        20.95,
+        0.0,
+        0.0
+      ],
+      "max": [
+        21.05,
+        0.1,
+        2.0
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_c578da168378643e58cf96c95ac46727",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "10-SUPP-016",
+    "name": "10-SUPP-016",
+    "class": "Support",
+    "status": "active",
+    "parent_id": "obj_1e78f83802082ac1dfa4aef4ef0b670c",
+    "transform": {
+      "translation": [
+        22.5,
+        0.05,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        22.45,
+        0.0,
+        0.0
+      ],
+      "max": [
+        22.55,
+        0.1,
+        2.0
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_60a84b143fd6b8cb6706ba2839412666",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "10-SUPP-017",
+    "name": "10-SUPP-017",
+    "class": "Support",
+    "status": "active",
+    "parent_id": "obj_1e78f83802082ac1dfa4aef4ef0b670c",
+    "transform": {
+      "translation": [
+        24.0,
+        0.05,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        23.95,
+        0.0,
+        0.0
+      ],
+      "max": [
+        24.05,
+        0.1,
+        2.0
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_291ad9bb143d4a7b781449640ee3f554",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "10-SUPP-018",
+    "name": "10-SUPP-018",
+    "class": "Support",
+    "status": "active",
+    "parent_id": "obj_1e78f83802082ac1dfa4aef4ef0b670c",
+    "transform": {
+      "translation": [
+        25.5,
+        0.05,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        25.45,
+        0.0,
+        0.0
+      ],
+      "max": [
+        25.55,
+        0.1,
+        2.0
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_3fcb5e67cd27e052dee5a175fb32708c",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "10-SUPP-019",
+    "name": "10-SUPP-019",
+    "class": "Support",
+    "status": "active",
+    "parent_id": "obj_1e78f83802082ac1dfa4aef4ef0b670c",
+    "transform": {
+      "translation": [
+        27.0,
+        0.05,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        26.95,
+        0.0,
+        0.0
+      ],
+      "max": [
+        27.05,
+        0.1,
+        2.0
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_f5dc6733312d592256a32551fd3abb3a",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "10-SUPP-020",
+    "name": "10-SUPP-020",
+    "class": "Support",
+    "status": "active",
+    "parent_id": "obj_1e78f83802082ac1dfa4aef4ef0b670c",
+    "transform": {
+      "translation": [
+        28.5,
+        0.05,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        28.45,
+        0.0,
+        0.0
+      ],
+      "max": [
+        28.55,
+        0.1,
+        2.0
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_7110d4217db8ed521921047279bc12d5",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "10-CT-001",
+    "name": "10-CT-001",
+    "class": "CableTray",
+    "status": "active",
+    "parent_id": "obj_1e78f83802082ac1dfa4aef4ef0b670c",
+    "transform": {
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        0.0,
+        -1.15,
+        2.9
+      ],
+      "max": [
+        60.0,
+        -0.85,
+        3.1
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_31c3122caf0cb405773881747e8e8954",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "10-CT-002",
+    "name": "10-CT-002",
+    "class": "CableTray",
+    "status": "active",
+    "parent_id": "obj_1e78f83802082ac1dfa4aef4ef0b670c",
+    "transform": {
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        0.0,
+        -1.15,
+        2.9
+      ],
+      "max": [
+        60.0,
+        -0.85,
+        3.1
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_5185a98702f5f050748a196675971ac2",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "20",
+    "name": "Area B — Utilities",
+    "class": "Area",
+    "status": "active",
+    "parent_id": "obj_ccf92b644a92663d4d0bc42f3804974b",
+    "transform": {
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        70.0,
+        0.0,
+        0.0
+      ],
+      "max": [
+        110.0,
+        40.0,
+        10.0
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_c8d57ed6ed1f445a99537612a6b27d92",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "SYS-PLT-STEAM",
+    "name": "Utility Steam System",
+    "class": "System",
+    "status": "active",
+    "parent_id": "obj_5185a98702f5f050748a196675971ac2",
+    "transform": {
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": null,
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_1c2cc018744246a653e815a7fb2c6643",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-3001",
+    "name": "LINE-3001",
+    "class": "Line",
+    "status": "active",
+    "parent_id": "obj_c8d57ed6ed1f445a99537612a6b27d92",
+    "transform": {
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": null,
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_c1d25c865cee0e3aa53678a43f727768",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-3001-SEG-001",
+    "name": "LINE-3001-SEG-001",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_1c2cc018744246a653e815a7fb2c6643",
+    "transform": {
+      "translation": [
+        71.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        70.0,
+        -0.028,
+        0.472
+      ],
+      "max": [
+        72.0,
+        0.028,
+        0.528
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "nominal_bore_mm": 50,
+      "pipe_class": "CS-C1A",
+      "insulated": true
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_dceae650d2fbd38a9836f37bc1305f94",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-3001-SEG-002",
+    "name": "LINE-3001-SEG-002",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_1c2cc018744246a653e815a7fb2c6643",
+    "transform": {
+      "translation": [
+        73.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        72.0,
+        -0.028,
+        0.472
+      ],
+      "max": [
+        74.0,
+        0.028,
+        0.528
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "nominal_bore_mm": 50,
+      "pipe_class": "CS-C1A",
+      "insulated": true
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_864b02e3400118245f6292f612d217cb",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-3001-SEG-003",
+    "name": "LINE-3001-SEG-003",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_1c2cc018744246a653e815a7fb2c6643",
+    "transform": {
+      "translation": [
+        75.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        74.0,
+        -0.028,
+        0.472
+      ],
+      "max": [
+        76.0,
+        0.028,
+        0.528
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "pipe_class": "CS-C1A",
+      "insulated": true,
+      "nominal_bore_mm": 50
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_0e79408d512f0cf9d7a32b2b3575088e",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-3001-SEG-004",
+    "name": "LINE-3001-SEG-004",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_1c2cc018744246a653e815a7fb2c6643",
+    "transform": {
+      "translation": [
+        77.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        76.0,
+        -0.028,
+        0.472
+      ],
+      "max": [
+        78.0,
+        0.028,
+        0.528
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "nominal_bore_mm": 50,
+      "pipe_class": "CS-C1A",
+      "insulated": true
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_ce3f72330a2cacfb736036f63a0d671f",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-3001-SEG-005",
+    "name": "LINE-3001-SEG-005",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_1c2cc018744246a653e815a7fb2c6643",
+    "transform": {
+      "translation": [
+        79.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        78.0,
+        -0.028,
+        0.472
+      ],
+      "max": [
+        80.0,
+        0.028,
+        0.528
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "nominal_bore_mm": 50,
+      "insulated": true,
+      "pipe_class": "CS-C1A"
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_9790fce8efb1ffeb33830ed48c13396f",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-3001-SEG-006",
+    "name": "LINE-3001-SEG-006",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_1c2cc018744246a653e815a7fb2c6643",
+    "transform": {
+      "translation": [
+        81.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        80.0,
+        -0.028,
+        0.472
+      ],
+      "max": [
+        82.0,
+        0.028,
+        0.528
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "pipe_class": "CS-C1A",
+      "nominal_bore_mm": 50,
+      "insulated": true
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_9626c34524e7b8a3f492a7c5fc4b92b2",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-3001-SEG-007",
+    "name": "LINE-3001-SEG-007",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_1c2cc018744246a653e815a7fb2c6643",
+    "transform": {
+      "translation": [
+        83.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        82.0,
+        -0.028,
+        0.472
+      ],
+      "max": [
+        84.0,
+        0.028,
+        0.528
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "insulated": true,
+      "pipe_class": "CS-C1A",
+      "nominal_bore_mm": 50
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_50142298760a3010871aeed56968d73b",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-3001-SEG-008",
+    "name": "LINE-3001-SEG-008",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_1c2cc018744246a653e815a7fb2c6643",
+    "transform": {
+      "translation": [
+        85.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        84.0,
+        -0.028,
+        0.472
+      ],
+      "max": [
+        86.0,
+        0.028,
+        0.528
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "nominal_bore_mm": 50,
+      "pipe_class": "CS-C1A",
+      "insulated": true
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_d716e5b28f75dfd9df6e97f3a1b93755",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-3001-SEG-009",
+    "name": "LINE-3001-SEG-009",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_1c2cc018744246a653e815a7fb2c6643",
+    "transform": {
+      "translation": [
+        87.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        86.0,
+        -0.028,
+        0.472
+      ],
+      "max": [
+        88.0,
+        0.028,
+        0.528
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "nominal_bore_mm": 50,
+      "pipe_class": "CS-C1A",
+      "insulated": true
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_97d78760f0fd104ce1dc73cbc96e9607",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LINE-3001-SEG-010",
+    "name": "LINE-3001-SEG-010",
+    "class": "PipeSegment",
+    "status": "active",
+    "parent_id": "obj_1c2cc018744246a653e815a7fb2c6643",
+    "transform": {
+      "translation": [
+        89.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        88.0,
+        -0.028,
+        0.472
+      ],
+      "max": [
+        90.0,
+        0.028,
+        0.528
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "nominal_bore_mm": 50,
+      "pipe_class": "CS-C1A",
+      "insulated": true
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_53f9f2cdc4c5d8aee03eb9414eb12615",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "V-2001A",
+    "name": "V-2001A",
+    "class": "Valve",
+    "status": "active",
+    "parent_id": "obj_1c2cc018744246a653e815a7fb2c6643",
+    "transform": {
+      "translation": [
+        72.5,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        72.416,
+        -0.084,
+        0.444
+      ],
+      "max": [
+        72.584,
+        0.084,
+        0.556
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "valve_type": "GATE",
+      "nominal_bore_mm": 50,
+      "actuator": "MANUAL"
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_f17326a7daced0f3393d1a2ed823d07d",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "V-2001B",
+    "name": "V-2001B",
+    "class": "Valve",
+    "status": "active",
+    "parent_id": "obj_1c2cc018744246a653e815a7fb2c6643",
+    "transform": {
+      "translation": [
+        77.5,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        77.416,
+        -0.084,
+        0.444
+      ],
+      "max": [
+        77.584,
+        0.084,
+        0.556
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "actuator": "MANUAL",
+      "valve_type": "GATE",
+      "nominal_bore_mm": 50
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_ff36580ffa3898252569cc5dcf7ab41c",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "V-2001C",
+    "name": "V-2001C",
+    "class": "Valve",
+    "status": "active",
+    "parent_id": "obj_1c2cc018744246a653e815a7fb2c6643",
+    "transform": {
+      "translation": [
+        82.5,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        82.416,
+        -0.084,
+        0.444
+      ],
+      "max": [
+        82.584,
+        0.084,
+        0.556
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "valve_type": "GATE",
+      "actuator": "MANUAL",
+      "nominal_bore_mm": 50
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_dd2422f782a6d9ef54977d4658ef3143",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "V-2001D",
+    "name": "V-2001D",
+    "class": "Valve",
+    "status": "active",
+    "parent_id": "obj_1c2cc018744246a653e815a7fb2c6643",
+    "transform": {
+      "translation": [
+        87.5,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        87.416,
+        -0.084,
+        0.444
+      ],
+      "max": [
+        87.584,
+        0.084,
+        0.556
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "actuator": "MANUAL",
+      "valve_type": "GATE",
+      "nominal_bore_mm": 50
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_248473b1701214ffc33c8c3c73749875",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "P-2001",
+    "name": "P-2001",
+    "class": "Pump",
+    "status": "active",
+    "parent_id": "obj_c8d57ed6ed1f445a99537612a6b27d92",
+    "transform": {
+      "translation": [
+        72.0,
+        20.0,
+        0.35
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        71.65,
+        19.65,
+        0.0
+      ],
+      "max": [
+        72.35,
+        20.35,
+        0.7
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "design_pressure_bar": 10.0,
+      "power_kw": 22.0,
+      "fluid": "STEAM",
+      "design_temperature_c": 180.0
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_76d6989818ef6cc3de0136598bd1d29d",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "TK-2001",
+    "name": "TK-2001",
+    "class": "Tank",
+    "status": "active",
+    "parent_id": "obj_c8d57ed6ed1f445a99537612a6b27d92",
+    "transform": {
+      "translation": [
+        85.0,
+        24.0,
+        5.030795991604359
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        82.48460200419782,
+        21.48460200419782,
+        0.0
+      ],
+      "max": [
+        87.51539799580218,
+        26.51539799580218,
+        10.061591983208718
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "volume_m3": 100.0,
+      "fluid": "STEAM"
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_88713524490c8ce82e2cd501a9f030f9",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "FT-2001",
+    "name": "FT-2001",
+    "class": "Instrument",
+    "status": "active",
+    "parent_id": "obj_c8d57ed6ed1f445a99537612a6b27d92",
+    "transform": {
+      "translation": [
+        70.0,
+        0.0,
+        1.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        69.9,
+        -0.1,
+        1.35
+      ],
+      "max": [
+        70.1,
+        0.1,
+        1.65
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "instrument_type": "FT"
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_4a7c77187e0a450f0d49eaf5875a9d38",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "PT-2002",
+    "name": "PT-2002",
+    "class": "Instrument",
+    "status": "active",
+    "parent_id": "obj_c8d57ed6ed1f445a99537612a6b27d92",
+    "transform": {
+      "translation": [
+        72.0,
+        0.0,
+        1.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        71.9,
+        -0.1,
+        1.35
+      ],
+      "max": [
+        72.1,
+        0.1,
+        1.65
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "instrument_type": "PT"
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_82c289e3c60737d674cf03f48acb2179",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "TT-2003",
+    "name": "TT-2003",
+    "class": "Instrument",
+    "status": "active",
+    "parent_id": "obj_c8d57ed6ed1f445a99537612a6b27d92",
+    "transform": {
+      "translation": [
+        74.0,
+        0.0,
+        1.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        73.9,
+        -0.1,
+        1.35
+      ],
+      "max": [
+        74.1,
+        0.1,
+        1.65
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "instrument_type": "TT"
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_4f5d16986e7e41bb347656be95e3874f",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "LT-2004",
+    "name": "LT-2004",
+    "class": "Instrument",
+    "status": "active",
+    "parent_id": "obj_c8d57ed6ed1f445a99537612a6b27d92",
+    "transform": {
+      "translation": [
+        76.0,
+        0.0,
+        1.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        75.9,
+        -0.1,
+        1.35
+      ],
+      "max": [
+        76.1,
+        0.1,
+        1.65
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {
+      "instrument_type": "LT"
+    },
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_9c2a193af2fd80fde4cc57135e18b15d",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "20-SUPP-001",
+    "name": "20-SUPP-001",
+    "class": "Support",
+    "status": "active",
+    "parent_id": "obj_5185a98702f5f050748a196675971ac2",
+    "transform": {
+      "translation": [
+        70.0,
+        0.05,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        69.95,
+        0.0,
+        0.0
+      ],
+      "max": [
+        70.05,
+        0.1,
+        2.0
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_9160606ebac7da3020c5b848cf3eae78",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "20-SUPP-002",
+    "name": "20-SUPP-002",
+    "class": "Support",
+    "status": "active",
+    "parent_id": "obj_5185a98702f5f050748a196675971ac2",
+    "transform": {
+      "translation": [
+        71.5,
+        0.05,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        71.45,
+        0.0,
+        0.0
+      ],
+      "max": [
+        71.55,
+        0.1,
+        2.0
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_46f105637d02a143ba18ed1805502640",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "20-SUPP-003",
+    "name": "20-SUPP-003",
+    "class": "Support",
+    "status": "active",
+    "parent_id": "obj_5185a98702f5f050748a196675971ac2",
+    "transform": {
+      "translation": [
+        73.0,
+        0.05,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        72.95,
+        0.0,
+        0.0
+      ],
+      "max": [
+        73.05,
+        0.1,
+        2.0
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_c101894a4c26d29137b61fd334c4eca9",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "20-SUPP-004",
+    "name": "20-SUPP-004",
+    "class": "Support",
+    "status": "active",
+    "parent_id": "obj_5185a98702f5f050748a196675971ac2",
+    "transform": {
+      "translation": [
+        74.5,
+        0.05,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        74.45,
+        0.0,
+        0.0
+      ],
+      "max": [
+        74.55,
+        0.1,
+        2.0
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_53fe1446e5e2b0d7ac6f73104c0e2c64",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "20-SUPP-005",
+    "name": "20-SUPP-005",
+    "class": "Support",
+    "status": "active",
+    "parent_id": "obj_5185a98702f5f050748a196675971ac2",
+    "transform": {
+      "translation": [
+        76.0,
+        0.05,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        75.95,
+        0.0,
+        0.0
+      ],
+      "max": [
+        76.05,
+        0.1,
+        2.0
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_70b0844d72cf037c1a8dddfc2d9313aa",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "20-SUPP-006",
+    "name": "20-SUPP-006",
+    "class": "Support",
+    "status": "active",
+    "parent_id": "obj_5185a98702f5f050748a196675971ac2",
+    "transform": {
+      "translation": [
+        77.5,
+        0.05,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        77.45,
+        0.0,
+        0.0
+      ],
+      "max": [
+        77.55,
+        0.1,
+        2.0
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_dc72617427c9eb645b9ed98d9e525658",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "20-SUPP-007",
+    "name": "20-SUPP-007",
+    "class": "Support",
+    "status": "active",
+    "parent_id": "obj_5185a98702f5f050748a196675971ac2",
+    "transform": {
+      "translation": [
+        79.0,
+        0.05,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        78.95,
+        0.0,
+        0.0
+      ],
+      "max": [
+        79.05,
+        0.1,
+        2.0
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_2a89cea83d7e002ba658e9f13a12d00b",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "20-SUPP-008",
+    "name": "20-SUPP-008",
+    "class": "Support",
+    "status": "active",
+    "parent_id": "obj_5185a98702f5f050748a196675971ac2",
+    "transform": {
+      "translation": [
+        80.5,
+        0.05,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        80.45,
+        0.0,
+        0.0
+      ],
+      "max": [
+        80.55,
+        0.1,
+        2.0
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_ec4b9d20be3cb772f76e41703cf057a8",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "20-SUPP-009",
+    "name": "20-SUPP-009",
+    "class": "Support",
+    "status": "active",
+    "parent_id": "obj_5185a98702f5f050748a196675971ac2",
+    "transform": {
+      "translation": [
+        82.0,
+        0.05,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        81.95,
+        0.0,
+        0.0
+      ],
+      "max": [
+        82.05,
+        0.1,
+        2.0
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_d7e639006fe2b8e4e997b209030db212",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "20-SUPP-010",
+    "name": "20-SUPP-010",
+    "class": "Support",
+    "status": "active",
+    "parent_id": "obj_5185a98702f5f050748a196675971ac2",
+    "transform": {
+      "translation": [
+        83.5,
+        0.05,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        83.45,
+        0.0,
+        0.0
+      ],
+      "max": [
+        83.55,
+        0.1,
+        2.0
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_4352843cd86096dc6c34d3e1ac3f6d24",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "20-SUPP-011",
+    "name": "20-SUPP-011",
+    "class": "Support",
+    "status": "active",
+    "parent_id": "obj_5185a98702f5f050748a196675971ac2",
+    "transform": {
+      "translation": [
+        85.0,
+        0.05,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        84.95,
+        0.0,
+        0.0
+      ],
+      "max": [
+        85.05,
+        0.1,
+        2.0
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_d3075f3e16019ca95cebe0934fc10f00",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "20-SUPP-012",
+    "name": "20-SUPP-012",
+    "class": "Support",
+    "status": "active",
+    "parent_id": "obj_5185a98702f5f050748a196675971ac2",
+    "transform": {
+      "translation": [
+        86.5,
+        0.05,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        86.45,
+        0.0,
+        0.0
+      ],
+      "max": [
+        86.55,
+        0.1,
+        2.0
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_ab16a4640d9b10cda2761ef768241bf4",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "20-SUPP-013",
+    "name": "20-SUPP-013",
+    "class": "Support",
+    "status": "active",
+    "parent_id": "obj_5185a98702f5f050748a196675971ac2",
+    "transform": {
+      "translation": [
+        88.0,
+        0.05,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        87.95,
+        0.0,
+        0.0
+      ],
+      "max": [
+        88.05,
+        0.1,
+        2.0
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_35b1051d2878baf381e5164f5d3d6039",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "20-SUPP-014",
+    "name": "20-SUPP-014",
+    "class": "Support",
+    "status": "active",
+    "parent_id": "obj_5185a98702f5f050748a196675971ac2",
+    "transform": {
+      "translation": [
+        89.5,
+        0.05,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        89.45,
+        0.0,
+        0.0
+      ],
+      "max": [
+        89.55,
+        0.1,
+        2.0
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_13fe6314f214fb847d86e854d8abf9be",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "20-SUPP-015",
+    "name": "20-SUPP-015",
+    "class": "Support",
+    "status": "active",
+    "parent_id": "obj_5185a98702f5f050748a196675971ac2",
+    "transform": {
+      "translation": [
+        91.0,
+        0.05,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        90.95,
+        0.0,
+        0.0
+      ],
+      "max": [
+        91.05,
+        0.1,
+        2.0
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_46e2323d0abdf46a3b958d893afc4d1c",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "20-SUPP-016",
+    "name": "20-SUPP-016",
+    "class": "Support",
+    "status": "active",
+    "parent_id": "obj_5185a98702f5f050748a196675971ac2",
+    "transform": {
+      "translation": [
+        92.5,
+        0.05,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        92.45,
+        0.0,
+        0.0
+      ],
+      "max": [
+        92.55,
+        0.1,
+        2.0
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_f8fe0e584302ab0d2869c5fd38c5932c",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "20-SUPP-017",
+    "name": "20-SUPP-017",
+    "class": "Support",
+    "status": "active",
+    "parent_id": "obj_5185a98702f5f050748a196675971ac2",
+    "transform": {
+      "translation": [
+        94.0,
+        0.05,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        93.95,
+        0.0,
+        0.0
+      ],
+      "max": [
+        94.05,
+        0.1,
+        2.0
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_68b65aa8e8d2df61fe46c32c9ac92813",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "20-SUPP-018",
+    "name": "20-SUPP-018",
+    "class": "Support",
+    "status": "active",
+    "parent_id": "obj_5185a98702f5f050748a196675971ac2",
+    "transform": {
+      "translation": [
+        95.5,
+        0.05,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        95.45,
+        0.0,
+        0.0
+      ],
+      "max": [
+        95.55,
+        0.1,
+        2.0
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_1febca3ebdec3624124e97f6136ded92",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "20-SUPP-019",
+    "name": "20-SUPP-019",
+    "class": "Support",
+    "status": "active",
+    "parent_id": "obj_5185a98702f5f050748a196675971ac2",
+    "transform": {
+      "translation": [
+        97.0,
+        0.05,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        96.95,
+        0.0,
+        0.0
+      ],
+      "max": [
+        97.05,
+        0.1,
+        2.0
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_b64e46063de49e7655059eb2ae143103",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "20-SUPP-020",
+    "name": "20-SUPP-020",
+    "class": "Support",
+    "status": "active",
+    "parent_id": "obj_5185a98702f5f050748a196675971ac2",
+    "transform": {
+      "translation": [
+        98.5,
+        0.05,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        98.45,
+        0.0,
+        0.0
+      ],
+      "max": [
+        98.55,
+        0.1,
+        2.0
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_fd916d14c2cfdfffe0b0bd8f237200d1",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "20-CT-001",
+    "name": "20-CT-001",
+    "class": "CableTray",
+    "status": "active",
+    "parent_id": "obj_5185a98702f5f050748a196675971ac2",
+    "transform": {
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        70.0,
+        -1.15,
+        2.9
+      ],
+      "max": [
+        110.0,
+        -0.85,
+        3.1
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  },
+  {
+    "object_id": "obj_20a032ec6b469a1afeb68da660a7445a",
+    "source_id": null,
+    "revision_id": "R00",
+    "tag": "20-CT-002",
+    "name": "20-CT-002",
+    "class": "CableTray",
+    "status": "active",
+    "parent_id": "obj_5185a98702f5f050748a196675971ac2",
+    "transform": {
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "aabb": {
+      "min": [
+        70.0,
+        -1.15,
+        2.9
+      ],
+      "max": [
+        110.0,
+        -0.85,
+        3.1
+      ]
+    },
+    "tile_id": null,
+    "feature_id": null,
+    "gltf_node_index": null,
+    "properties": {},
+    "connected_to": [],
+    "part_of": null
+  }
+]

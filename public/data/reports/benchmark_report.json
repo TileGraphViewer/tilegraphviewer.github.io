@@ -1,0 +1,11 @@
+{
+  "cypher_generation_ms": 3,
+  "ingest_ms": 2,
+  "nearby_query_avg_us": 28,
+  "node_count": 157,
+  "object_count": 157,
+  "relationship_count": 182,
+  "spatial_index_build_ms": 1,
+  "spatial_index_record_count": 148,
+  "tag_query_avg_us": 0
+}

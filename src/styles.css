@@ -1,0 +1,146 @@
+@import "tailwindcss";
+
+@layer base {s
+  :root {
+    color-scheme: dark;
+  }
+
+  html,
+  body {
+    min-height: 100%;
+  }
+
+  body {
+    margin: 0;
+    overflow: hidden;
+    background:
+      radial-gradient(circle at top, rgba(34, 211, 238, 0.14), transparent 34%),
+      linear-gradient(180deg, #020617 0%, #0f172a 100%);
+    color: rgb(226 232 240);
+    font-family: "Segoe UI", "Inter", sans-serif;
+  }
+}
+
+@layer components {
+  #cesium-container {
+    @apply absolute inset-0;
+  }
+
+  #sidebar {
+    @apply absolute right-0 top-0 z-20 flex h-full w-80 flex-col border-l border-white/10 bg-slate-900/90 shadow-2xl shadow-black/40 backdrop-blur-xl;
+  }
+
+  .panel {
+    @apply border-b border-white/10 p-4;
+  }
+
+  #agent-panel {
+    @apply flex flex-1 flex-col p-4;
+  }
+
+  #agent-messages {
+    @apply flex-1 space-y-2 overflow-y-auto rounded-2xl border border-white/10 bg-slate-950/60 p-3 text-sm leading-6;
+  }
+
+  #agent-input-row {
+    @apply mt-3 flex gap-2;
+  }
+
+  #agent-input {
+    @apply min-w-0 flex-1 rounded-2xl border border-slate-700 bg-slate-950/80 px-4 py-2.5 text-sm text-slate-100 outline-none transition placeholder:text-slate-500 focus:border-cyan-400 focus:ring-2 focus:ring-cyan-400/20;
+  }
+
+  #agent-submit {
+    @apply inline-flex items-center justify-center rounded-2xl bg-cyan-500 px-4 text-sm font-medium text-slate-950 transition hover:bg-cyan-400 disabled:cursor-not-allowed disabled:bg-slate-700 disabled:text-slate-400;
+  }
+
+  #status-bar {
+    @apply border-t border-white/10 px-4 py-3 text-[11px] text-slate-500;
+  }
+
+  .msg-user {
+    @apply ml-auto max-w-[90%] rounded-2xl rounded-br-md bg-cyan-500/15 px-3 py-2 text-sm leading-6 text-cyan-100 shadow-sm shadow-cyan-950/30 ring-1 ring-cyan-400/20;
+  }
+
+  .msg-assistant {
+    @apply max-w-[90%] rounded-2xl rounded-bl-md bg-slate-800/80 px-3 py-2 text-sm leading-6 text-slate-100 shadow-sm shadow-black/20 ring-1 ring-white/10;
+  }
+
+  .msg-meta {
+    @apply px-1 text-[10px] italic text-slate-500;
+  }
+
+  .prop-table {
+    @apply mt-3 w-full border-collapse;
+  }
+
+  .prop-key {
+    @apply w-2/5 px-2 py-2 align-top text-[11px] uppercase tracking-[0.18em] text-slate-500;
+  }
+
+  .prop-val {
+    @apply break-all px-2 py-2 text-xs text-slate-100;
+  }
+
+  .loading {
+    @apply mt-3 text-xs italic text-slate-500;
+  }
+
+  .error {
+    @apply mt-3 text-xs text-rose-300;
+  }
+
+  .tree-node {
+    @apply text-sm;
+  }
+
+  .tree-row {
+    @apply flex items-center gap-2 rounded-lg px-2 py-1.5 transition hover:bg-slate-800/70;
+  }
+
+  .tree-toggle {
+    @apply flex w-3 shrink-0 text-cyan-400/80;
+  }
+
+  .tree-toggle.has-children {
+    @apply cursor-pointer;
+  }
+
+  .tree-label {
+    @apply min-w-0 flex-1 truncate text-slate-300 transition hover:text-white;
+  }
+
+  .tree-children {
+    @apply ml-4 border-l border-white/10 pl-3;
+  }
+
+  .tree-isolate {
+    @apply inline-flex shrink-0 items-center rounded-md border border-cyan-400/40 px-1.5 py-0.5 text-[10px] font-semibold text-cyan-300 transition hover:bg-cyan-400/10;
+  }
+
+  .ai-bar {
+    @apply pointer-events-auto absolute left-1/2 bottom-6 z-20 w-[min(48rem,calc(100vw-2rem))] -translate-x-1/2 rounded-3xl border border-white/10 bg-slate-900/90 p-4 shadow-2xl shadow-black/40 backdrop-blur-xl;
+  }
+
+  .ai-bar__footer {
+    @apply mt-3 flex items-center justify-between gap-2;
+  }
+
+  .ai-bar__tools,
+  .ai-bar__actions {
+    @apply flex min-w-0 items-center gap-2;
+  }
+
+  .ai-bar__input {
+    @apply min-h-11 max-h-40 w-full resize-none rounded-2xl border border-slate-700 bg-slate-950/70 px-4 py-3 text-sm text-slate-100 placeholder:text-slate-500 shadow-inner outline-none transition focus:border-cyan-400 focus:ring-2 focus:ring-cyan-400/20;
+  }
+
+  .ai-bar__icon-button,
+  .ai-bar__send {
+    @apply inline-flex h-11 w-11 items-center justify-center rounded-2xl border border-slate-700 bg-slate-800 text-slate-100 transition hover:border-cyan-400/60 hover:bg-cyan-500/10;
+  }
+
+  .ai-bar__send {
+    @apply border-cyan-400/30 bg-cyan-500/90 text-slate-950 hover:bg-cyan-400 disabled:cursor-not-allowed disabled:bg-slate-700 disabled:text-slate-400;
+  }
+}

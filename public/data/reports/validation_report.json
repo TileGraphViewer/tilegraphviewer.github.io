@@ -1,0 +1,29 @@
+{
+  "scene": {
+    "object_count": 157,
+    "tagged_count": 157,
+    "geometry_count": 146,
+    "errors": [],
+    "warnings": [
+      "Object obj_085d029287cca92b11734547fe201221 (LINE-1001) has no AABB — geometry may be missing",
+      "Object obj_db9d68ca6b96cbd442c404db5831d833 (LINE-1002) has no AABB — geometry may be missing",
+      "Object obj_caa235c89547589394aa6207f368e029 (LINE-2001) has no AABB — geometry may be missing",
+      "Object obj_1417bd2c1ad4dc152769c8590d479cbf (LINE-2002) has no AABB — geometry may be missing",
+      "Object obj_1c2cc018744246a653e815a7fb2c6643 (LINE-3001) has no AABB — geometry may be missing"
+    ]
+  },
+  "tileset": {
+    "tile_count": 15,
+    "leaf_tile_count": 8,
+    "errors": [],
+    "warnings": []
+  },
+  "graph": {
+    "node_count": 157,
+    "rel_count": 182,
+    "orphan_rel_count": 0,
+    "errors": [],
+    "warnings": []
+  },
+  "passed": true
+}

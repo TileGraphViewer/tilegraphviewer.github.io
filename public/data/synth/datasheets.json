@@ -1,0 +1,38 @@
+[
+  {
+    "document_id": "DS-P-1001",
+    "object_id": "obj_8745dea8547ed3a097ba30ec96342f98",
+    "tag": "P-1001",
+    "class": "Pump",
+    "properties": {
+      "design_pressure_bar": 6.0,
+      "design_temperature_c": 45.0,
+      "power_kw": 22.0,
+      "fluid": "COOLING_WATER"
+    }
+  },
+  {
+    "document_id": "DS-P-10101",
+    "object_id": "obj_81dff8556c233e8c05eab6c404b5ec53",
+    "tag": "P-10101",
+    "class": "Pump",
+    "properties": {
+      "power_kw": 22.0,
+      "design_pressure_bar": 25.0,
+      "fluid": "HYDROCARBON",
+      "design_temperature_c": 120.0
+    }
+  },
+  {
+    "document_id": "DS-P-2001",
+    "object_id": "obj_248473b1701214ffc33c8c3c73749875",
+    "tag": "P-2001",
+    "class": "Pump",
+    "properties": {
+      "design_pressure_bar": 10.0,
+      "power_kw": 22.0,
+      "fluid": "STEAM",
+      "design_temperature_c": 180.0
+    }
+  }
+]

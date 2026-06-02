@@ -1,0 +1,2522 @@
+{
+  "version": "1.0.0",
+  "record_count": 148,
+  "records": [
+    {
+      "object_id": "obj_aa3505955368f6e572f74fdb9f8b7c09",
+      "tag": "10-SUPP-006",
+      "class": "Support",
+      "aabb_min": [
+        7.45,
+        0.0,
+        0.0
+      ],
+      "aabb_max": [
+        7.55,
+        0.1,
+        2.0
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 87
+    },
+    {
+      "object_id": "obj_e8bfb51f27de8ce50c50f44b58ec9f9e",
+      "tag": "V-10101A",
+      "class": "Valve",
+      "aabb_min": [
+        4.266,
+        -0.23399999999999999,
+        0.344
+      ],
+      "aabb_max": [
+        4.734,
+        0.23399999999999999,
+        0.656
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 60
+    },
+    {
+      "object_id": "obj_5436fb4960f6a505257f9024b222227f",
+      "tag": "V-1001A",
+      "class": "Valve",
+      "aabb_min": [
+        3.841,
+        -0.159,
+        0.394
+      ],
+      "aabb_max": [
+        4.159,
+        0.159,
+        0.606
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 16
+    },
+    {
+      "object_id": "obj_9873a143029052739bfc6aa51b6981d8",
+      "tag": "V-10101B",
+      "class": "Valve",
+      "aabb_min": [
+        13.266,
+        -0.23399999999999999,
+        0.344
+      ],
+      "aabb_max": [
+        13.734,
+        0.23399999999999999,
+        0.656
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 61
+    },
+    {
+      "object_id": "obj_a15292af362152358f397142b94587a3",
+      "tag": "V-1001B",
+      "class": "Valve",
+      "aabb_min": [
+        11.841,
+        -0.159,
+        0.394
+      ],
+      "aabb_max": [
+        12.159,
+        0.159,
+        0.606
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 17
+    },
+    {
+      "object_id": "obj_1e130b90c7492cd16bf3964065fbb8d6",
+      "tag": "10-SUPP-009",
+      "class": "Support",
+      "aabb_min": [
+        11.95,
+        0.0,
+        0.0
+      ],
+      "aabb_max": [
+        12.05,
+        0.1,
+        2.0
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 90
+    },
+    {
+      "object_id": "obj_5402c3ee5033f49e91550a3b52a5be3a",
+      "tag": "10-SUPP-008",
+      "class": "Support",
+      "aabb_min": [
+        10.45,
+        0.0,
+        0.0
+      ],
+      "aabb_max": [
+        10.55,
+        0.1,
+        2.0
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 89
+    },
+    {
+      "object_id": "obj_2f5849776819890528c5154d0ee747f4",
+      "tag": "10-SUPP-007",
+      "class": "Support",
+      "aabb_min": [
+        8.95,
+        0.0,
+        0.0
+      ],
+      "aabb_max": [
+        9.05,
+        0.1,
+        2.0
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 88
+    },
+    {
+      "object_id": "obj_df7d008c5f2e9cf87ba33b504250b754",
+      "tag": "10-SUPP-011",
+      "class": "Support",
+      "aabb_min": [
+        14.95,
+        0.0,
+        0.0
+      ],
+      "aabb_max": [
+        15.05,
+        0.1,
+        2.0
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 92
+    },
+    {
+      "object_id": "obj_9f8d7f354ca29cfb4e4de13193c0a681",
+      "tag": "10-SUPP-010",
+      "class": "Support",
+      "aabb_min": [
+        13.45,
+        0.0,
+        0.0
+      ],
+      "aabb_max": [
+        13.55,
+        0.1,
+        2.0
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 91
+    },
+    {
+      "object_id": "obj_42cdb75a104cc77764f475124c7f60f2",
+      "tag": "LINE-2001-SEG-006",
+      "class": "PipeSegment",
+      "aabb_min": [
+        10.0,
+        -0.078,
+        0.422
+      ],
+      "aabb_max": [
+        12.0,
+        0.078,
+        0.578
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 47
+    },
+    {
+      "object_id": "obj_710832f1f6cbbfcfb4f28d5a3fadc143",
+      "tag": "LINE-2001-SEG-005",
+      "class": "PipeSegment",
+      "aabb_min": [
+        8.0,
+        -0.078,
+        0.422
+      ],
+      "aabb_max": [
+        10.0,
+        0.078,
+        0.578
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 46
+    },
+    {
+      "object_id": "obj_ece9c858080e26fbdadc557953285c8b",
+      "tag": "V-1002A",
+      "class": "Valve",
+      "aabb_min": [
+        6.871,
+        -0.129,
+        0.41400000000000003
+      ],
+      "aabb_max": [
+        7.129,
+        0.129,
+        0.586
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 32
+    },
+    {
+      "object_id": "obj_9c5a3a56814296558a90dea0041be894",
+      "tag": "V-1002C",
+      "class": "Valve",
+      "aabb_min": [
+        18.871,
+        -0.129,
+        0.41400000000000003
+      ],
+      "aabb_max": [
+        19.129,
+        0.129,
+        0.586
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 34
+    },
+    {
+      "object_id": "obj_c50d4170b264d21fb10aeb4fcb8aa3f5",
+      "tag": "V-1002B",
+      "class": "Valve",
+      "aabb_min": [
+        12.871,
+        -0.129,
+        0.41400000000000003
+      ],
+      "aabb_max": [
+        13.129,
+        0.129,
+        0.586
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 33
+    },
+    {
+      "object_id": "obj_efa66d80926599bfa00fd67446e40767",
+      "tag": "LINE-2001-SEG-003",
+      "class": "PipeSegment",
+      "aabb_min": [
+        4.0,
+        -0.078,
+        0.422
+      ],
+      "aabb_max": [
+        6.0,
+        0.078,
+        0.578
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 44
+    },
+    {
+      "object_id": "obj_db662818e5ee34f6d60bc97e51acb3cc",
+      "tag": "LINE-2001-SEG-001",
+      "class": "PipeSegment",
+      "aabb_min": [
+        0.0,
+        -0.078,
+        0.422
+      ],
+      "aabb_max": [
+        2.0,
+        0.078,
+        0.578
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 42
+    },
+    {
+      "object_id": "obj_e8bccda8690c1ccff28fae3f31281f9a",
+      "tag": "LINE-2001-SEG-008",
+      "class": "PipeSegment",
+      "aabb_min": [
+        14.0,
+        -0.078,
+        0.422
+      ],
+      "aabb_max": [
+        16.0,
+        0.078,
+        0.578
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 49
+    },
+    {
+      "object_id": "obj_1dd7e4aa5cc01f1d5863bc72ea4c04d3",
+      "tag": "LINE-2001-SEG-004",
+      "class": "PipeSegment",
+      "aabb_min": [
+        6.0,
+        -0.078,
+        0.422
+      ],
+      "aabb_max": [
+        8.0,
+        0.078,
+        0.578
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 45
+    },
+    {
+      "object_id": "obj_0bf89e75b9fd3b30b77c5228ccdc484a",
+      "tag": "V-1001D",
+      "class": "Valve",
+      "aabb_min": [
+        27.841,
+        -0.159,
+        0.394
+      ],
+      "aabb_max": [
+        28.159,
+        0.159,
+        0.606
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 19
+    },
+    {
+      "object_id": "obj_378ecf02f6cd7626f3db4e9881fb3639",
+      "tag": "V-10101C",
+      "class": "Valve",
+      "aabb_min": [
+        22.266,
+        -0.23399999999999999,
+        0.344
+      ],
+      "aabb_max": [
+        22.734,
+        0.23399999999999999,
+        0.656
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 62
+    },
+    {
+      "object_id": "obj_b8c8aa6466bf0d4bcea7028175226bb4",
+      "tag": "V-1001C",
+      "class": "Valve",
+      "aabb_min": [
+        19.841,
+        -0.159,
+        0.394
+      ],
+      "aabb_max": [
+        20.159,
+        0.159,
+        0.606
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 18
+    },
+    {
+      "object_id": "obj_ab16a4640d9b10cda2761ef768241bf4",
+      "tag": "20-SUPP-013",
+      "class": "Support",
+      "aabb_min": [
+        87.95,
+        0.0,
+        0.0
+      ],
+      "aabb_max": [
+        88.05,
+        0.1,
+        2.0
+      ],
+      "tile_id": "area-b/content",
+      "feature_id": 32
+    },
+    {
+      "object_id": "obj_c131576b9bee4efda6ebca6ebefdc81b",
+      "tag": "V-10101D",
+      "class": "Valve",
+      "aabb_min": [
+        31.266,
+        -0.23399999999999999,
+        0.344
+      ],
+      "aabb_max": [
+        31.734,
+        0.23399999999999999,
+        0.656
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 63
+    },
+    {
+      "object_id": "obj_5185a98702f5f050748a196675971ac2",
+      "tag": "20",
+      "class": "Area",
+      "aabb_min": [
+        70.0,
+        0.0,
+        0.0
+      ],
+      "aabb_max": [
+        110.0,
+        40.0,
+        10.0
+      ],
+      "tile_id": null,
+      "feature_id": null
+    },
+    {
+      "object_id": "obj_3fcb5e67cd27e052dee5a175fb32708c",
+      "tag": "10-SUPP-019",
+      "class": "Support",
+      "aabb_min": [
+        26.95,
+        0.0,
+        0.0
+      ],
+      "aabb_max": [
+        27.05,
+        0.1,
+        2.0
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 100
+    },
+    {
+      "object_id": "obj_1febca3ebdec3624124e97f6136ded92",
+      "tag": "20-SUPP-019",
+      "class": "Support",
+      "aabb_min": [
+        96.95,
+        0.0,
+        0.0
+      ],
+      "aabb_max": [
+        97.05,
+        0.1,
+        2.0
+      ],
+      "tile_id": "area-b/content",
+      "feature_id": 38
+    },
+    {
+      "object_id": "obj_68b65aa8e8d2df61fe46c32c9ac92813",
+      "tag": "20-SUPP-018",
+      "class": "Support",
+      "aabb_min": [
+        95.45,
+        0.0,
+        0.0
+      ],
+      "aabb_max": [
+        95.55,
+        0.1,
+        2.0
+      ],
+      "tile_id": "area-b/content",
+      "feature_id": 37
+    },
+    {
+      "object_id": "obj_05605f08a60d8939eff3ef743f0d7a1a",
+      "tag": "V-1002D",
+      "class": "Valve",
+      "aabb_min": [
+        24.871,
+        -0.129,
+        0.41400000000000003
+      ],
+      "aabb_max": [
+        25.129,
+        0.129,
+        0.586
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 35
+    },
+    {
+      "object_id": "obj_e69a06c24a2203e3470640f653123fc5",
+      "tag": "LINE-2001-SEG-012",
+      "class": "PipeSegment",
+      "aabb_min": [
+        22.0,
+        -0.078,
+        0.422
+      ],
+      "aabb_max": [
+        24.0,
+        0.078,
+        0.578
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 53
+    },
+    {
+      "object_id": "obj_a42ef2f02823aff55d2179db1db86285",
+      "tag": "LINE-2001-SEG-011",
+      "class": "PipeSegment",
+      "aabb_min": [
+        20.0,
+        -0.078,
+        0.422
+      ],
+      "aabb_max": [
+        22.0,
+        0.078,
+        0.578
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 52
+    },
+    {
+      "object_id": "obj_87f7d061ce843b65ec7c91c272946ef1",
+      "tag": "LINE-2001-SEG-015",
+      "class": "PipeSegment",
+      "aabb_min": [
+        28.0,
+        -0.078,
+        0.422
+      ],
+      "aabb_max": [
+        30.0,
+        0.078,
+        0.578
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 56
+    },
+    {
+      "object_id": "obj_96f2f62509e5a1f658c6d76bb7b53b59",
+      "tag": "LINE-2001-SEG-014",
+      "class": "PipeSegment",
+      "aabb_min": [
+        26.0,
+        -0.078,
+        0.422
+      ],
+      "aabb_max": [
+        28.0,
+        0.078,
+        0.578
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 55
+    },
+    {
+      "object_id": "obj_36be43d1f6d3f1583dbda0f9533638aa",
+      "tag": "LINE-2001-SEG-016",
+      "class": "PipeSegment",
+      "aabb_min": [
+        30.0,
+        -0.078,
+        0.422
+      ],
+      "aabb_max": [
+        32.0,
+        0.078,
+        0.578
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 57
+    },
+    {
+      "object_id": "obj_0969b8fc8a7dd154cdf5544f65d673a3",
+      "tag": "LINE-2001-SEG-013",
+      "class": "PipeSegment",
+      "aabb_min": [
+        24.0,
+        -0.078,
+        0.422
+      ],
+      "aabb_max": [
+        26.0,
+        0.078,
+        0.578
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 54
+    },
+    {
+      "object_id": "obj_5836fcdd7f99fbc97dc184fa3ea6421b",
+      "tag": "LINE-2001-SEG-018",
+      "class": "PipeSegment",
+      "aabb_min": [
+        34.0,
+        -0.078,
+        0.422
+      ],
+      "aabb_max": [
+        36.0,
+        0.078,
+        0.578
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 59
+    },
+    {
+      "object_id": "obj_bfa15f6af90427b45639127881e9e456",
+      "tag": "LINE-2001-SEG-017",
+      "class": "PipeSegment",
+      "aabb_min": [
+        32.0,
+        -0.078,
+        0.422
+      ],
+      "aabb_max": [
+        34.0,
+        0.078,
+        0.578
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 58
+    },
+    {
+      "object_id": "obj_02b6cc579e4c74779f4472cdc5761406",
+      "tag": "10-SUPP-002",
+      "class": "Support",
+      "aabb_min": [
+        1.45,
+        0.0,
+        0.0
+      ],
+      "aabb_max": [
+        1.55,
+        0.1,
+        2.0
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 83
+    },
+    {
+      "object_id": "obj_1e78f83802082ac1dfa4aef4ef0b670c",
+      "tag": "10",
+      "class": "Area",
+      "aabb_min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "aabb_max": [
+        60.0,
+        40.0,
+        15.0
+      ],
+      "tile_id": null,
+      "feature_id": null
+    },
+    {
+      "object_id": "obj_64f71bc6b83fde4a017f1594c2bd259f",
+      "tag": "10-SUPP-001",
+      "class": "Support",
+      "aabb_min": [
+        -0.05,
+        0.0,
+        0.0
+      ],
+      "aabb_max": [
+        0.05,
+        0.1,
+        2.0
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 82
+    },
+    {
+      "object_id": "obj_9c2a193af2fd80fde4cc57135e18b15d",
+      "tag": "20-SUPP-001",
+      "class": "Support",
+      "aabb_min": [
+        69.95,
+        0.0,
+        0.0
+      ],
+      "aabb_max": [
+        70.05,
+        0.1,
+        2.0
+      ],
+      "tile_id": "area-b/content",
+      "feature_id": 20
+    },
+    {
+      "object_id": "obj_ea9cd2057168282731933587122e1603",
+      "tag": "10-SUPP-003",
+      "class": "Support",
+      "aabb_min": [
+        2.95,
+        0.0,
+        0.0
+      ],
+      "aabb_max": [
+        3.05,
+        0.1,
+        2.0
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 84
+    },
+    {
+      "object_id": "obj_04c7b5190135789768e298e5b500f393",
+      "tag": "10-SUPP-004",
+      "class": "Support",
+      "aabb_min": [
+        4.45,
+        0.0,
+        0.0
+      ],
+      "aabb_max": [
+        4.55,
+        0.1,
+        2.0
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 85
+    },
+    {
+      "object_id": "obj_81dff8556c233e8c05eab6c404b5ec53",
+      "tag": "P-10101",
+      "class": "Pump",
+      "aabb_min": [
+        1.65,
+        19.65,
+        0.0
+      ],
+      "aabb_max": [
+        2.35,
+        20.35,
+        0.7
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 76
+    },
+    {
+      "object_id": "obj_8745dea8547ed3a097ba30ec96342f98",
+      "tag": "P-1001",
+      "class": "Pump",
+      "aabb_min": [
+        1.65,
+        19.65,
+        0.0
+      ],
+      "aabb_max": [
+        2.35,
+        20.35,
+        0.7
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 36
+    },
+    {
+      "object_id": "obj_baf95cd4eea1c346722cefd317761215",
+      "tag": "10-SUPP-013",
+      "class": "Support",
+      "aabb_min": [
+        17.95,
+        0.0,
+        0.0
+      ],
+      "aabb_max": [
+        18.05,
+        0.1,
+        2.0
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 94
+    },
+    {
+      "object_id": "obj_a8b7dcf9df33e8d59d178f32dd4bb624",
+      "tag": "10-SUPP-012",
+      "class": "Support",
+      "aabb_min": [
+        16.45,
+        0.0,
+        0.0
+      ],
+      "aabb_max": [
+        16.55,
+        0.1,
+        2.0
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 93
+    },
+    {
+      "object_id": "obj_c578da168378643e58cf96c95ac46727",
+      "tag": "10-SUPP-016",
+      "class": "Support",
+      "aabb_min": [
+        22.45,
+        0.0,
+        0.0
+      ],
+      "aabb_max": [
+        22.55,
+        0.1,
+        2.0
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 97
+    },
+    {
+      "object_id": "obj_a833a06475111b04bafaffeba0f844d8",
+      "tag": "10-SUPP-015",
+      "class": "Support",
+      "aabb_min": [
+        20.95,
+        0.0,
+        0.0
+      ],
+      "aabb_max": [
+        21.05,
+        0.1,
+        2.0
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 96
+    },
+    {
+      "object_id": "obj_c97cbb5725e680676e0e8ab96f465cbb",
+      "tag": "10-SUPP-014",
+      "class": "Support",
+      "aabb_min": [
+        19.45,
+        0.0,
+        0.0
+      ],
+      "aabb_max": [
+        19.55,
+        0.1,
+        2.0
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 95
+    },
+    {
+      "object_id": "obj_291ad9bb143d4a7b781449640ee3f554",
+      "tag": "10-SUPP-018",
+      "class": "Support",
+      "aabb_min": [
+        25.45,
+        0.0,
+        0.0
+      ],
+      "aabb_max": [
+        25.55,
+        0.1,
+        2.0
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 99
+    },
+    {
+      "object_id": "obj_60a84b143fd6b8cb6706ba2839412666",
+      "tag": "10-SUPP-017",
+      "class": "Support",
+      "aabb_min": [
+        23.95,
+        0.0,
+        0.0
+      ],
+      "aabb_max": [
+        24.05,
+        0.1,
+        2.0
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 98
+    },
+    {
+      "object_id": "obj_dad2df050a4f6d8bc8e49f0d3c1c1346",
+      "tag": "TK-1001",
+      "class": "Tank",
+      "aabb_min": [
+        12.484602004197821,
+        21.48460200419782,
+        0.0
+      ],
+      "aabb_max": [
+        17.51539799580218,
+        26.51539799580218,
+        10.061591983208718
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 37
+    },
+    {
+      "object_id": "obj_3c1a5d23a4e7ab2fea4711ea7fb22f4b",
+      "tag": "10-SUPP-005",
+      "class": "Support",
+      "aabb_min": [
+        5.95,
+        0.0,
+        0.0
+      ],
+      "aabb_max": [
+        6.05,
+        0.1,
+        2.0
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 86
+    },
+    {
+      "object_id": "obj_f5dc6733312d592256a32551fd3abb3a",
+      "tag": "10-SUPP-020",
+      "class": "Support",
+      "aabb_min": [
+        28.45,
+        0.0,
+        0.0
+      ],
+      "aabb_max": [
+        28.55,
+        0.1,
+        2.0
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 101
+    },
+    {
+      "object_id": "obj_6b4674df97204cfe0f211b5fa710dd82",
+      "tag": "TK-10101",
+      "class": "Tank",
+      "aabb_min": [
+        12.484602004197821,
+        21.48460200419782,
+        0.0
+      ],
+      "aabb_max": [
+        17.51539799580218,
+        26.51539799580218,
+        10.061591983208718
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 77
+    },
+    {
+      "object_id": "obj_dc72617427c9eb645b9ed98d9e525658",
+      "tag": "20-SUPP-007",
+      "class": "Support",
+      "aabb_min": [
+        78.95,
+        0.0,
+        0.0
+      ],
+      "aabb_max": [
+        79.05,
+        0.1,
+        2.0
+      ],
+      "tile_id": "area-b/content",
+      "feature_id": 26
+    },
+    {
+      "object_id": "obj_c101894a4c26d29137b61fd334c4eca9",
+      "tag": "20-SUPP-004",
+      "class": "Support",
+      "aabb_min": [
+        74.45,
+        0.0,
+        0.0
+      ],
+      "aabb_max": [
+        74.55,
+        0.1,
+        2.0
+      ],
+      "tile_id": "area-b/content",
+      "feature_id": 23
+    },
+    {
+      "object_id": "obj_46f105637d02a143ba18ed1805502640",
+      "tag": "20-SUPP-003",
+      "class": "Support",
+      "aabb_min": [
+        72.95,
+        0.0,
+        0.0
+      ],
+      "aabb_max": [
+        73.05,
+        0.1,
+        2.0
+      ],
+      "tile_id": "area-b/content",
+      "feature_id": 22
+    },
+    {
+      "object_id": "obj_f8fe0e584302ab0d2869c5fd38c5932c",
+      "tag": "20-SUPP-017",
+      "class": "Support",
+      "aabb_min": [
+        93.95,
+        0.0,
+        0.0
+      ],
+      "aabb_max": [
+        94.05,
+        0.1,
+        2.0
+      ],
+      "tile_id": "area-b/content",
+      "feature_id": 36
+    },
+    {
+      "object_id": "obj_d7e639006fe2b8e4e997b209030db212",
+      "tag": "20-SUPP-010",
+      "class": "Support",
+      "aabb_min": [
+        83.45,
+        0.0,
+        0.0
+      ],
+      "aabb_max": [
+        83.55,
+        0.1,
+        2.0
+      ],
+      "tile_id": "area-b/content",
+      "feature_id": 29
+    },
+    {
+      "object_id": "obj_2a89cea83d7e002ba658e9f13a12d00b",
+      "tag": "20-SUPP-008",
+      "class": "Support",
+      "aabb_min": [
+        80.45,
+        0.0,
+        0.0
+      ],
+      "aabb_max": [
+        80.55,
+        0.1,
+        2.0
+      ],
+      "tile_id": "area-b/content",
+      "feature_id": 27
+    },
+    {
+      "object_id": "obj_9160606ebac7da3020c5b848cf3eae78",
+      "tag": "20-SUPP-002",
+      "class": "Support",
+      "aabb_min": [
+        71.45,
+        0.0,
+        0.0
+      ],
+      "aabb_max": [
+        71.55,
+        0.1,
+        2.0
+      ],
+      "tile_id": "area-b/content",
+      "feature_id": 21
+    },
+    {
+      "object_id": "obj_b64e46063de49e7655059eb2ae143103",
+      "tag": "20-SUPP-020",
+      "class": "Support",
+      "aabb_min": [
+        98.45,
+        0.0,
+        0.0
+      ],
+      "aabb_max": [
+        98.55,
+        0.1,
+        2.0
+      ],
+      "tile_id": "area-b/content",
+      "feature_id": 39
+    },
+    {
+      "object_id": "obj_ec4b9d20be3cb772f76e41703cf057a8",
+      "tag": "20-SUPP-009",
+      "class": "Support",
+      "aabb_min": [
+        81.95,
+        0.0,
+        0.0
+      ],
+      "aabb_max": [
+        82.05,
+        0.1,
+        2.0
+      ],
+      "tile_id": "area-b/content",
+      "feature_id": 28
+    },
+    {
+      "object_id": "obj_d3075f3e16019ca95cebe0934fc10f00",
+      "tag": "20-SUPP-012",
+      "class": "Support",
+      "aabb_min": [
+        86.45,
+        0.0,
+        0.0
+      ],
+      "aabb_max": [
+        86.55,
+        0.1,
+        2.0
+      ],
+      "tile_id": "area-b/content",
+      "feature_id": 31
+    },
+    {
+      "object_id": "obj_70b0844d72cf037c1a8dddfc2d9313aa",
+      "tag": "20-SUPP-006",
+      "class": "Support",
+      "aabb_min": [
+        77.45,
+        0.0,
+        0.0
+      ],
+      "aabb_max": [
+        77.55,
+        0.1,
+        2.0
+      ],
+      "tile_id": "area-b/content",
+      "feature_id": 25
+    },
+    {
+      "object_id": "obj_53fe1446e5e2b0d7ac6f73104c0e2c64",
+      "tag": "20-SUPP-005",
+      "class": "Support",
+      "aabb_min": [
+        75.95,
+        0.0,
+        0.0
+      ],
+      "aabb_max": [
+        76.05,
+        0.1,
+        2.0
+      ],
+      "tile_id": "area-b/content",
+      "feature_id": 24
+    },
+    {
+      "object_id": "obj_46e2323d0abdf46a3b958d893afc4d1c",
+      "tag": "20-SUPP-016",
+      "class": "Support",
+      "aabb_min": [
+        92.45,
+        0.0,
+        0.0
+      ],
+      "aabb_max": [
+        92.55,
+        0.1,
+        2.0
+      ],
+      "tile_id": "area-b/content",
+      "feature_id": 35
+    },
+    {
+      "object_id": "obj_35b1051d2878baf381e5164f5d3d6039",
+      "tag": "20-SUPP-014",
+      "class": "Support",
+      "aabb_min": [
+        89.45,
+        0.0,
+        0.0
+      ],
+      "aabb_max": [
+        89.55,
+        0.1,
+        2.0
+      ],
+      "tile_id": "area-b/content",
+      "feature_id": 33
+    },
+    {
+      "object_id": "obj_76d6989818ef6cc3de0136598bd1d29d",
+      "tag": "TK-2001",
+      "class": "Tank",
+      "aabb_min": [
+        82.48460200419782,
+        21.48460200419782,
+        0.0
+      ],
+      "aabb_max": [
+        87.51539799580218,
+        26.51539799580218,
+        10.061591983208718
+      ],
+      "tile_id": "area-b/content",
+      "feature_id": 15
+    },
+    {
+      "object_id": "obj_248473b1701214ffc33c8c3c73749875",
+      "tag": "P-2001",
+      "class": "Pump",
+      "aabb_min": [
+        71.65,
+        19.65,
+        0.0
+      ],
+      "aabb_max": [
+        72.35,
+        20.35,
+        0.7
+      ],
+      "tile_id": "area-b/content",
+      "feature_id": 14
+    },
+    {
+      "object_id": "obj_13fe6314f214fb847d86e854d8abf9be",
+      "tag": "20-SUPP-015",
+      "class": "Support",
+      "aabb_min": [
+        90.95,
+        0.0,
+        0.0
+      ],
+      "aabb_max": [
+        91.05,
+        0.1,
+        2.0
+      ],
+      "tile_id": "area-b/content",
+      "feature_id": 34
+    },
+    {
+      "object_id": "obj_4352843cd86096dc6c34d3e1ac3f6d24",
+      "tag": "20-SUPP-011",
+      "class": "Support",
+      "aabb_min": [
+        84.95,
+        0.0,
+        0.0
+      ],
+      "aabb_max": [
+        85.05,
+        0.1,
+        2.0
+      ],
+      "tile_id": "area-b/content",
+      "feature_id": 30
+    },
+    {
+      "object_id": "obj_dc710ab2e0d6cd527cea52522b933885",
+      "tag": "LINE-1001-SEG-002",
+      "class": "PipeSegment",
+      "aabb_min": [
+        2.0,
+        -0.053,
+        0.447
+      ],
+      "aabb_max": [
+        4.0,
+        0.053,
+        0.553
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 1
+    },
+    {
+      "object_id": "obj_c7cfff2c6192f8dd42a4fe36ff56139f",
+      "tag": "LINE-2001-SEG-002",
+      "class": "PipeSegment",
+      "aabb_min": [
+        2.0,
+        -0.078,
+        0.422
+      ],
+      "aabb_max": [
+        4.0,
+        0.078,
+        0.578
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 43
+    },
+    {
+      "object_id": "obj_ec4044d3bb8a51e382d03e51c1c342b3",
+      "tag": "FT-1001",
+      "class": "Instrument",
+      "aabb_min": [
+        -0.1,
+        -0.1,
+        1.35
+      ],
+      "aabb_max": [
+        0.1,
+        0.1,
+        1.65
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 38
+    },
+    {
+      "object_id": "obj_8f0582c02ab7b06af711446b72267b75",
+      "tag": "V-10102B",
+      "class": "Valve",
+      "aabb_min": [
+        9.916,
+        -0.084,
+        0.444
+      ],
+      "aabb_max": [
+        10.084,
+        0.084,
+        0.556
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 73
+    },
+    {
+      "object_id": "obj_fefda1d853bd60d277f0594f5f9a0509",
+      "tag": "V-10102A",
+      "class": "Valve",
+      "aabb_min": [
+        5.916,
+        -0.084,
+        0.444
+      ],
+      "aabb_max": [
+        6.084,
+        0.084,
+        0.556
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 72
+    },
+    {
+      "object_id": "obj_e54a940f0ca3ce3b6c5e0411304b6b93",
+      "tag": "LINE-1001-SEG-004",
+      "class": "PipeSegment",
+      "aabb_min": [
+        6.0,
+        -0.053,
+        0.447
+      ],
+      "aabb_max": [
+        8.0,
+        0.053,
+        0.553
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 3
+    },
+    {
+      "object_id": "obj_30bf7da142b7d2af8dba5ab607a0c349",
+      "tag": "LINE-1001-SEG-003",
+      "class": "PipeSegment",
+      "aabb_min": [
+        4.0,
+        -0.053,
+        0.447
+      ],
+      "aabb_max": [
+        6.0,
+        0.053,
+        0.553
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 2
+    },
+    {
+      "object_id": "obj_11b2d63ea176a2b87191c1e903fccf70",
+      "tag": "LINE-1001-SEG-001",
+      "class": "PipeSegment",
+      "aabb_min": [
+        0.0,
+        -0.053,
+        0.447
+      ],
+      "aabb_max": [
+        2.0,
+        0.053,
+        0.553
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 0
+    },
+    {
+      "object_id": "obj_9d40bd7ae1462cdd1629850ed49083bd",
+      "tag": "LINE-1001-SEG-006",
+      "class": "PipeSegment",
+      "aabb_min": [
+        10.0,
+        -0.053,
+        0.447
+      ],
+      "aabb_max": [
+        12.0,
+        0.053,
+        0.553
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 5
+    },
+    {
+      "object_id": "obj_38ea81b1d12d9b52ba2b9c77beb647ba",
+      "tag": "LINE-1001-SEG-005",
+      "class": "PipeSegment",
+      "aabb_min": [
+        8.0,
+        -0.053,
+        0.447
+      ],
+      "aabb_max": [
+        10.0,
+        0.053,
+        0.553
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 4
+    },
+    {
+      "object_id": "obj_7110d4217db8ed521921047279bc12d5",
+      "tag": "10-CT-001",
+      "class": "CableTray",
+      "aabb_min": [
+        0.0,
+        -1.15,
+        2.9
+      ],
+      "aabb_max": [
+        60.0,
+        -0.85,
+        3.1
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 102
+    },
+    {
+      "object_id": "obj_31c3122caf0cb405773881747e8e8954",
+      "tag": "10-CT-002",
+      "class": "CableTray",
+      "aabb_min": [
+        0.0,
+        -1.15,
+        2.9
+      ],
+      "aabb_max": [
+        60.0,
+        -0.85,
+        3.1
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 103
+    },
+    {
+      "object_id": "obj_c10ca15ad0bd7db5941b8deaed87cbd0",
+      "tag": "FT-10101",
+      "class": "Instrument",
+      "aabb_min": [
+        -0.1,
+        -0.1,
+        1.35
+      ],
+      "aabb_max": [
+        0.1,
+        0.1,
+        1.65
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 78
+    },
+    {
+      "object_id": "obj_70f654f21a9d633ae7e2e300823d9d02",
+      "tag": "TT-1003",
+      "class": "Instrument",
+      "aabb_min": [
+        3.9,
+        -0.1,
+        1.35
+      ],
+      "aabb_max": [
+        4.1,
+        0.1,
+        1.65
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 40
+    },
+    {
+      "object_id": "obj_084220f613f6a35c1120af420db35ec5",
+      "tag": "PT-1002",
+      "class": "Instrument",
+      "aabb_min": [
+        1.9,
+        -0.1,
+        1.35
+      ],
+      "aabb_max": [
+        2.1,
+        0.1,
+        1.65
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 39
+    },
+    {
+      "object_id": "obj_b7f957c244cd5691d052a7cf992f8a8e",
+      "tag": "TT-10103",
+      "class": "Instrument",
+      "aabb_min": [
+        3.9,
+        -0.1,
+        1.35
+      ],
+      "aabb_max": [
+        4.1,
+        0.1,
+        1.65
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 80
+    },
+    {
+      "object_id": "obj_0952e45b8c7212a2017adec9b1ed28b0",
+      "tag": "PT-10102",
+      "class": "Instrument",
+      "aabb_min": [
+        1.9,
+        -0.1,
+        1.35
+      ],
+      "aabb_max": [
+        2.1,
+        0.1,
+        1.65
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 79
+    },
+    {
+      "object_id": "obj_997cc9fb1f5b4cf778da43f055d84bc0",
+      "tag": "LT-1004",
+      "class": "Instrument",
+      "aabb_min": [
+        5.9,
+        -0.1,
+        1.35
+      ],
+      "aabb_max": [
+        6.1,
+        0.1,
+        1.65
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 41
+    },
+    {
+      "object_id": "obj_51ce5c2e1831ed1397c397939bb1cf40",
+      "tag": "LT-10104",
+      "class": "Instrument",
+      "aabb_min": [
+        5.9,
+        -0.1,
+        1.35
+      ],
+      "aabb_max": [
+        6.1,
+        0.1,
+        1.65
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 81
+    },
+    {
+      "object_id": "obj_f17326a7daced0f3393d1a2ed823d07d",
+      "tag": "V-2001B",
+      "class": "Valve",
+      "aabb_min": [
+        77.416,
+        -0.084,
+        0.444
+      ],
+      "aabb_max": [
+        77.584,
+        0.084,
+        0.556
+      ],
+      "tile_id": "area-b/content",
+      "feature_id": 11
+    },
+    {
+      "object_id": "obj_2f793a8169979ddaf6ffbd0eb600796c",
+      "tag": "V-10102D",
+      "class": "Valve",
+      "aabb_min": [
+        17.916,
+        -0.084,
+        0.444
+      ],
+      "aabb_max": [
+        18.084,
+        0.084,
+        0.556
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 75
+    },
+    {
+      "object_id": "obj_22cdcc1224b5fb3b2b13ae293b7cba32",
+      "tag": "V-10102C",
+      "class": "Valve",
+      "aabb_min": [
+        13.916,
+        -0.084,
+        0.444
+      ],
+      "aabb_max": [
+        14.084,
+        0.084,
+        0.556
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 74
+    },
+    {
+      "object_id": "obj_dd2422f782a6d9ef54977d4658ef3143",
+      "tag": "V-2001D",
+      "class": "Valve",
+      "aabb_min": [
+        87.416,
+        -0.084,
+        0.444
+      ],
+      "aabb_max": [
+        87.584,
+        0.084,
+        0.556
+      ],
+      "tile_id": "area-b/content",
+      "feature_id": 13
+    },
+    {
+      "object_id": "obj_ff36580ffa3898252569cc5dcf7ab41c",
+      "tag": "V-2001C",
+      "class": "Valve",
+      "aabb_min": [
+        82.416,
+        -0.084,
+        0.444
+      ],
+      "aabb_max": [
+        82.584,
+        0.084,
+        0.556
+      ],
+      "tile_id": "area-b/content",
+      "feature_id": 12
+    },
+    {
+      "object_id": "obj_2fc55d32b477ddefa5ca543a71a4f8ae",
+      "tag": "LINE-2001-SEG-009",
+      "class": "PipeSegment",
+      "aabb_min": [
+        16.0,
+        -0.078,
+        0.422
+      ],
+      "aabb_max": [
+        18.0,
+        0.078,
+        0.578
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 50
+    },
+    {
+      "object_id": "obj_6a9a93560c7214c66037ec66c0ec431c",
+      "tag": "LINE-2001-SEG-007",
+      "class": "PipeSegment",
+      "aabb_min": [
+        12.0,
+        -0.078,
+        0.422
+      ],
+      "aabb_max": [
+        14.0,
+        0.078,
+        0.578
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 48
+    },
+    {
+      "object_id": "obj_53f9f2cdc4c5d8aee03eb9414eb12615",
+      "tag": "V-2001A",
+      "class": "Valve",
+      "aabb_min": [
+        72.416,
+        -0.084,
+        0.444
+      ],
+      "aabb_max": [
+        72.584,
+        0.084,
+        0.556
+      ],
+      "tile_id": "area-b/content",
+      "feature_id": 10
+    },
+    {
+      "object_id": "obj_d4ebd6c20d62bab13d9dd2f45a8c6b2c",
+      "tag": "LINE-2001-SEG-010",
+      "class": "PipeSegment",
+      "aabb_min": [
+        18.0,
+        -0.078,
+        0.422
+      ],
+      "aabb_max": [
+        20.0,
+        0.078,
+        0.578
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 51
+    },
+    {
+      "object_id": "obj_4a7c77187e0a450f0d49eaf5875a9d38",
+      "tag": "PT-2002",
+      "class": "Instrument",
+      "aabb_min": [
+        71.9,
+        -0.1,
+        1.35
+      ],
+      "aabb_max": [
+        72.1,
+        0.1,
+        1.65
+      ],
+      "tile_id": "area-b/content",
+      "feature_id": 17
+    },
+    {
+      "object_id": "obj_20a032ec6b469a1afeb68da660a7445a",
+      "tag": "20-CT-002",
+      "class": "CableTray",
+      "aabb_min": [
+        70.0,
+        -1.15,
+        2.9
+      ],
+      "aabb_max": [
+        110.0,
+        -0.85,
+        3.1
+      ],
+      "tile_id": "area-b/content",
+      "feature_id": 41
+    },
+    {
+      "object_id": "obj_fd916d14c2cfdfffe0b0bd8f237200d1",
+      "tag": "20-CT-001",
+      "class": "CableTray",
+      "aabb_min": [
+        70.0,
+        -1.15,
+        2.9
+      ],
+      "aabb_max": [
+        110.0,
+        -0.85,
+        3.1
+      ],
+      "tile_id": "area-b/content",
+      "feature_id": 40
+    },
+    {
+      "object_id": "obj_4f5d16986e7e41bb347656be95e3874f",
+      "tag": "LT-2004",
+      "class": "Instrument",
+      "aabb_min": [
+        75.9,
+        -0.1,
+        1.35
+      ],
+      "aabb_max": [
+        76.1,
+        0.1,
+        1.65
+      ],
+      "tile_id": "area-b/content",
+      "feature_id": 19
+    },
+    {
+      "object_id": "obj_82c289e3c60737d674cf03f48acb2179",
+      "tag": "TT-2003",
+      "class": "Instrument",
+      "aabb_min": [
+        73.9,
+        -0.1,
+        1.35
+      ],
+      "aabb_max": [
+        74.1,
+        0.1,
+        1.65
+      ],
+      "tile_id": "area-b/content",
+      "feature_id": 18
+    },
+    {
+      "object_id": "obj_119ed8982108483b62b7b2c13b55b0e4",
+      "tag": "LINE-1001-SEG-008",
+      "class": "PipeSegment",
+      "aabb_min": [
+        14.0,
+        -0.053,
+        0.447
+      ],
+      "aabb_max": [
+        16.0,
+        0.053,
+        0.553
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 7
+    },
+    {
+      "object_id": "obj_d8c036fbdcfe321b5813ecabd1a71b8e",
+      "tag": "LINE-1001-SEG-007",
+      "class": "PipeSegment",
+      "aabb_min": [
+        12.0,
+        -0.053,
+        0.447
+      ],
+      "aabb_max": [
+        14.0,
+        0.053,
+        0.553
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 6
+    },
+    {
+      "object_id": "obj_88713524490c8ce82e2cd501a9f030f9",
+      "tag": "FT-2001",
+      "class": "Instrument",
+      "aabb_min": [
+        69.9,
+        -0.1,
+        1.35
+      ],
+      "aabb_max": [
+        70.1,
+        0.1,
+        1.65
+      ],
+      "tile_id": "area-b/content",
+      "feature_id": 16
+    },
+    {
+      "object_id": "obj_5f95ed3122723647201944347cd7138f",
+      "tag": "LINE-1001-SEG-016",
+      "class": "PipeSegment",
+      "aabb_min": [
+        30.0,
+        -0.053,
+        0.447
+      ],
+      "aabb_max": [
+        32.0,
+        0.053,
+        0.553
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 15
+    },
+    {
+      "object_id": "obj_f9a738c1525e9a9c89f6bb9343b2f0f4",
+      "tag": "LINE-1002-SEG-006",
+      "class": "PipeSegment",
+      "aabb_min": [
+        14.0,
+        -0.043,
+        0.457
+      ],
+      "aabb_max": [
+        16.0,
+        0.043,
+        0.543
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 25
+    },
+    {
+      "object_id": "obj_a4aee1e97d3c1e57d866fd1c566bed1c",
+      "tag": "LINE-1002-SEG-002",
+      "class": "PipeSegment",
+      "aabb_min": [
+        6.0,
+        -0.043,
+        0.457
+      ],
+      "aabb_max": [
+        8.0,
+        0.043,
+        0.543
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 21
+    },
+    {
+      "object_id": "obj_97fadbcf986d4e16c55fa8f7c9a6e988",
+      "tag": "LINE-1002-SEG-001",
+      "class": "PipeSegment",
+      "aabb_min": [
+        4.0,
+        -0.043,
+        0.457
+      ],
+      "aabb_max": [
+        6.0,
+        0.043,
+        0.543
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 20
+    },
+    {
+      "object_id": "obj_3fede2e8a70ee03500f343c9006f0f0e",
+      "tag": "LINE-1001-SEG-010",
+      "class": "PipeSegment",
+      "aabb_min": [
+        18.0,
+        -0.053,
+        0.447
+      ],
+      "aabb_max": [
+        20.0,
+        0.053,
+        0.553
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 9
+    },
+    {
+      "object_id": "obj_5610d34fb50977490bcda9eb67c51595",
+      "tag": "LINE-1001-SEG-009",
+      "class": "PipeSegment",
+      "aabb_min": [
+        16.0,
+        -0.053,
+        0.447
+      ],
+      "aabb_max": [
+        18.0,
+        0.053,
+        0.553
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 8
+    },
+    {
+      "object_id": "obj_b95173574d8337a01adacaa72398489b",
+      "tag": "LINE-1002-SEG-005",
+      "class": "PipeSegment",
+      "aabb_min": [
+        12.0,
+        -0.043,
+        0.457
+      ],
+      "aabb_max": [
+        14.0,
+        0.043,
+        0.543
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 24
+    },
+    {
+      "object_id": "obj_d26d5fbdda0654ee3b44d2887e983bae",
+      "tag": "LINE-1002-SEG-004",
+      "class": "PipeSegment",
+      "aabb_min": [
+        10.0,
+        -0.043,
+        0.457
+      ],
+      "aabb_max": [
+        12.0,
+        0.043,
+        0.543
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 23
+    },
+    {
+      "object_id": "obj_3382873fff759c6c0a26fd7e36f7a91d",
+      "tag": "LINE-1002-SEG-003",
+      "class": "PipeSegment",
+      "aabb_min": [
+        8.0,
+        -0.043,
+        0.457
+      ],
+      "aabb_max": [
+        10.0,
+        0.043,
+        0.543
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 22
+    },
+    {
+      "object_id": "obj_86d06ec11e2149c21528ed5dca07e401",
+      "tag": "LINE-1002-SEG-008",
+      "class": "PipeSegment",
+      "aabb_min": [
+        18.0,
+        -0.043,
+        0.457
+      ],
+      "aabb_max": [
+        20.0,
+        0.043,
+        0.543
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 27
+    },
+    {
+      "object_id": "obj_838b7cf1f2e243e59acd3d2c813563a0",
+      "tag": "LINE-1002-SEG-007",
+      "class": "PipeSegment",
+      "aabb_min": [
+        16.0,
+        -0.043,
+        0.457
+      ],
+      "aabb_max": [
+        18.0,
+        0.043,
+        0.543
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 26
+    },
+    {
+      "object_id": "obj_366db97f57978422f2912a97dd655667",
+      "tag": "LINE-2002-SEG-005",
+      "class": "PipeSegment",
+      "aabb_min": [
+        12.0,
+        -0.028,
+        0.472
+      ],
+      "aabb_max": [
+        14.0,
+        0.028,
+        0.528
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 68
+    },
+    {
+      "object_id": "obj_61c63645babbfa8b795516ab6b8ef5d2",
+      "tag": "LINE-2002-SEG-004",
+      "class": "PipeSegment",
+      "aabb_min": [
+        10.0,
+        -0.028,
+        0.472
+      ],
+      "aabb_max": [
+        12.0,
+        0.028,
+        0.528
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 67
+    },
+    {
+      "object_id": "obj_d30011592de092bbf75a5608ae700a6a",
+      "tag": "LINE-2002-SEG-003",
+      "class": "PipeSegment",
+      "aabb_min": [
+        8.0,
+        -0.028,
+        0.472
+      ],
+      "aabb_max": [
+        10.0,
+        0.028,
+        0.528
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 66
+    },
+    {
+      "object_id": "obj_1d9f147375610026a600da7bd1d1703b",
+      "tag": "LINE-1002-SEG-009",
+      "class": "PipeSegment",
+      "aabb_min": [
+        20.0,
+        -0.043,
+        0.457
+      ],
+      "aabb_max": [
+        22.0,
+        0.043,
+        0.543
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 28
+    },
+    {
+      "object_id": "obj_765f70476ea720c74e7d2950cf8b64a6",
+      "tag": "LINE-2002-SEG-006",
+      "class": "PipeSegment",
+      "aabb_min": [
+        14.0,
+        -0.028,
+        0.472
+      ],
+      "aabb_max": [
+        16.0,
+        0.028,
+        0.528
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 69
+    },
+    {
+      "object_id": "obj_c855c790bc72aa0038a6efd5db89dc81",
+      "tag": "LINE-2002-SEG-002",
+      "class": "PipeSegment",
+      "aabb_min": [
+        6.0,
+        -0.028,
+        0.472
+      ],
+      "aabb_max": [
+        8.0,
+        0.028,
+        0.528
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 65
+    },
+    {
+      "object_id": "obj_f52b3241322cc0b8b7c25329e4d76d59",
+      "tag": "LINE-2002-SEG-001",
+      "class": "PipeSegment",
+      "aabb_min": [
+        4.0,
+        -0.028,
+        0.472
+      ],
+      "aabb_max": [
+        6.0,
+        0.028,
+        0.528
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 64
+    },
+    {
+      "object_id": "obj_e34e2c3308aab5fe2cd0917790d07d63",
+      "tag": "LINE-2002-SEG-008",
+      "class": "PipeSegment",
+      "aabb_min": [
+        18.0,
+        -0.028,
+        0.472
+      ],
+      "aabb_max": [
+        20.0,
+        0.028,
+        0.528
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 71
+    },
+    {
+      "object_id": "obj_5d073edfe4e33bfe2c9acbd44b57b1d7",
+      "tag": "LINE-2002-SEG-007",
+      "class": "PipeSegment",
+      "aabb_min": [
+        16.0,
+        -0.028,
+        0.472
+      ],
+      "aabb_max": [
+        18.0,
+        0.028,
+        0.528
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 70
+    },
+    {
+      "object_id": "obj_7905b57e4bfacdafd2ded2f30c9e004a",
+      "tag": "LINE-1001-SEG-013",
+      "class": "PipeSegment",
+      "aabb_min": [
+        24.0,
+        -0.053,
+        0.447
+      ],
+      "aabb_max": [
+        26.0,
+        0.053,
+        0.553
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 12
+    },
+    {
+      "object_id": "obj_a20a431a2dc2fd82d1383f68611a3de0",
+      "tag": "LINE-1001-SEG-012",
+      "class": "PipeSegment",
+      "aabb_min": [
+        22.0,
+        -0.053,
+        0.447
+      ],
+      "aabb_max": [
+        24.0,
+        0.053,
+        0.553
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 11
+    },
+    {
+      "object_id": "obj_1492ad2fc9072e0d5084e0077d90bcc2",
+      "tag": "LINE-1001-SEG-011",
+      "class": "PipeSegment",
+      "aabb_min": [
+        20.0,
+        -0.053,
+        0.447
+      ],
+      "aabb_max": [
+        22.0,
+        0.053,
+        0.553
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 10
+    },
+    {
+      "object_id": "obj_8dad7db97aba216b1b04dc652751e1c9",
+      "tag": "LINE-1001-SEG-015",
+      "class": "PipeSegment",
+      "aabb_min": [
+        28.0,
+        -0.053,
+        0.447
+      ],
+      "aabb_max": [
+        30.0,
+        0.053,
+        0.553
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 14
+    },
+    {
+      "object_id": "obj_dcd715e7e1ad9b6adf6908cef8dfcaf1",
+      "tag": "LINE-1001-SEG-014",
+      "class": "PipeSegment",
+      "aabb_min": [
+        26.0,
+        -0.053,
+        0.447
+      ],
+      "aabb_max": [
+        28.0,
+        0.053,
+        0.553
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 13
+    },
+    {
+      "object_id": "obj_79b915f4ecc0cff8c1dbd112e9a0f04e",
+      "tag": "LINE-1002-SEG-011",
+      "class": "PipeSegment",
+      "aabb_min": [
+        24.0,
+        -0.043,
+        0.457
+      ],
+      "aabb_max": [
+        26.0,
+        0.043,
+        0.543
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 30
+    },
+    {
+      "object_id": "obj_602d18010a039130742d74d4f508a767",
+      "tag": "LINE-1002-SEG-010",
+      "class": "PipeSegment",
+      "aabb_min": [
+        22.0,
+        -0.043,
+        0.457
+      ],
+      "aabb_max": [
+        24.0,
+        0.043,
+        0.543
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 29
+    },
+    {
+      "object_id": "obj_dceae650d2fbd38a9836f37bc1305f94",
+      "tag": "LINE-3001-SEG-002",
+      "class": "PipeSegment",
+      "aabb_min": [
+        72.0,
+        -0.028,
+        0.472
+      ],
+      "aabb_max": [
+        74.0,
+        0.028,
+        0.528
+      ],
+      "tile_id": "area-b/content",
+      "feature_id": 1
+    },
+    {
+      "object_id": "obj_fd078a1cec0885f2370a6ecd0ae6f124",
+      "tag": "LINE-1002-SEG-012",
+      "class": "PipeSegment",
+      "aabb_min": [
+        26.0,
+        -0.043,
+        0.457
+      ],
+      "aabb_max": [
+        28.0,
+        0.043,
+        0.543
+      ],
+      "tile_id": "area-a/content",
+      "feature_id": 31
+    },
+    {
+      "object_id": "obj_ce3f72330a2cacfb736036f63a0d671f",
+      "tag": "LINE-3001-SEG-005",
+      "class": "PipeSegment",
+      "aabb_min": [
+        78.0,
+        -0.028,
+        0.472
+      ],
+      "aabb_max": [
+        80.0,
+        0.028,
+        0.528
+      ],
+      "tile_id": "area-b/content",
+      "feature_id": 4
+    },
+    {
+      "object_id": "obj_0e79408d512f0cf9d7a32b2b3575088e",
+      "tag": "LINE-3001-SEG-004",
+      "class": "PipeSegment",
+      "aabb_min": [
+        76.0,
+        -0.028,
+        0.472
+      ],
+      "aabb_max": [
+        78.0,
+        0.028,
+        0.528
+      ],
+      "tile_id": "area-b/content",
+      "feature_id": 3
+    },
+    {
+      "object_id": "obj_864b02e3400118245f6292f612d217cb",
+      "tag": "LINE-3001-SEG-003",
+      "class": "PipeSegment",
+      "aabb_min": [
+        74.0,
+        -0.028,
+        0.472
+      ],
+      "aabb_max": [
+        76.0,
+        0.028,
+        0.528
+      ],
+      "tile_id": "area-b/content",
+      "feature_id": 2
+    },
+    {
+      "object_id": "obj_97d78760f0fd104ce1dc73cbc96e9607",
+      "tag": "LINE-3001-SEG-010",
+      "class": "PipeSegment",
+      "aabb_min": [
+        88.0,
+        -0.028,
+        0.472
+      ],
+      "aabb_max": [
+        90.0,
+        0.028,
+        0.528
+      ],
+      "tile_id": "area-b/content",
+      "feature_id": 9
+    },
+    {
+      "object_id": "obj_9790fce8efb1ffeb33830ed48c13396f",
+      "tag": "LINE-3001-SEG-006",
+      "class": "PipeSegment",
+      "aabb_min": [
+        80.0,
+        -0.028,
+        0.472
+      ],
+      "aabb_max": [
+        82.0,
+        0.028,
+        0.528
+      ],
+      "tile_id": "area-b/content",
+      "feature_id": 5
+    },
+    {
+      "object_id": "obj_9626c34524e7b8a3f492a7c5fc4b92b2",
+      "tag": "LINE-3001-SEG-007",
+      "class": "PipeSegment",
+      "aabb_min": [
+        82.0,
+        -0.028,
+        0.472
+      ],
+      "aabb_max": [
+        84.0,
+        0.028,
+        0.528
+      ],
+      "tile_id": "area-b/content",
+      "feature_id": 6
+    },
+    {
+      "object_id": "obj_c1d25c865cee0e3aa53678a43f727768",
+      "tag": "LINE-3001-SEG-001",
+      "class": "PipeSegment",
+      "aabb_min": [
+        70.0,
+        -0.028,
+        0.472
+      ],
+      "aabb_max": [
+        72.0,
+        0.028,
+        0.528
+      ],
+      "tile_id": "area-b/content",
+      "feature_id": 0
+    },
+    {
+      "object_id": "obj_d716e5b28f75dfd9df6e97f3a1b93755",
+      "tag": "LINE-3001-SEG-009",
+      "class": "PipeSegment",
+      "aabb_min": [
+        86.0,
+        -0.028,
+        0.472
+      ],
+      "aabb_max": [
+        88.0,
+        0.028,
+        0.528
+      ],
+      "tile_id": "area-b/content",
+      "feature_id": 8
+    },
+    {
+      "object_id": "obj_50142298760a3010871aeed56968d73b",
+      "tag": "LINE-3001-SEG-008",
+      "class": "PipeSegment",
+      "aabb_min": [
+        84.0,
+        -0.028,
+        0.472
+      ],
+      "aabb_max": [
+        86.0,
+        0.028,
+        0.528
+      ],
+      "tile_id": "area-b/content",
+      "feature_id": 7
+    }
+  ]
+}

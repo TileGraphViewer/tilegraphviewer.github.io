@@ -1,0 +1,290 @@
+{
+  "asset": {
+    "version": "1.1",
+    "tilesetVersion": "0.1.0",
+    "generator": "TileGraphAgent/tilegraph-tiles v0.1.0"
+  },
+  "geometricError": 254.75478405713994,
+  "root": {
+    "boundingVolume": {
+      "box": [
+        54.95,
+        12.682699012756348,
+        5.03079605102539,
+        55.05,
+        0.0,
+        0.0,
+        0.0,
+        13.832699012756348,
+        0.0,
+        0.0,
+        0.0,
+        5.03079605102539
+      ]
+    },
+    "geometricError": 254.75478405713994,
+    "refine": "ADD",
+    "children": [
+      {
+        "boundingVolume": {
+          "box": [
+            29.95,
+            12.682699012756348,
+            5.03079605102539,
+            30.05,
+            0.0,
+            0.0,
+            0.0,
+            13.832699012756348,
+            0.0,
+            0.0,
+            0.0,
+            5.03079605102539
+          ]
+        },
+        "geometricError": 50.0,
+        "refine": "ADD",
+        "extras": {
+          "area": "area-a"
+        },
+        "children": [
+          {
+            "boundingVolume": {
+              "box": [
+                18.0,
+                0.0,
+                0.5,
+                18.0,
+                0.0,
+                0.0,
+                0.0,
+                0.23399999737739563,
+                0.0,
+                0.0,
+                0.0,
+                0.156000018119812
+              ]
+            },
+            "geometricError": 0.0,
+            "content": {
+              "uri": "content/area-a-piping.glb"
+            }
+          },
+          {
+            "boundingVolume": {
+              "box": [
+                8.70769901201129,
+                13.20769901201129,
+                5.03079605102539,
+                8.807699013501406,
+                0.0,
+                0.0,
+                0.0,
+                13.307699013501406,
+                0.0,
+                0.0,
+                0.0,
+                5.03079605102539
+              ]
+            },
+            "geometricError": 0.0,
+            "content": {
+              "uri": "content/area-a-equipment.glb"
+            }
+          },
+          {
+            "boundingVolume": {
+              "box": [
+                14.249999618157744,
+                0.05000000074505806,
+                1.0,
+                14.299999618902802,
+                0.0,
+                0.0,
+                0.0,
+                0.05000000074505806,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            },
+            "geometricError": 0.0,
+            "content": {
+              "uri": "content/area-a-support.glb"
+            }
+          },
+          {
+            "boundingVolume": {
+              "box": [
+                30.0,
+                -1.0,
+                3.05,
+                30.0,
+                0.0,
+                0.0,
+                0.0,
+                0.1499999761581421,
+                0.0,
+                0.0,
+                0.0,
+                0.09999990463256836
+              ]
+            },
+            "geometricError": 0.0,
+            "content": {
+              "uri": "content/area-a-cable.glb"
+            }
+          }
+        ]
+      },
+      {
+        "boundingVolume": {
+          "box": [
+            89.95,
+            12.682699012756348,
+            5.03079605102539,
+            20.05,
+            0.0,
+            0.0,
+            0.0,
+            13.832699012756348,
+            0.0,
+            0.0,
+            0.0,
+            5.03079605102539
+          ]
+        },
+        "geometricError": 50.0,
+        "refine": "ADD",
+        "extras": {
+          "area": "area-b"
+        },
+        "children": [
+          {
+            "boundingVolume": {
+              "box": [
+                80.0,
+                0.0,
+                0.5,
+                10.0,
+                0.0,
+                0.0,
+                0.0,
+                0.08399999886751175,
+                0.0,
+                0.0,
+                0.0,
+                0.0559999942779541
+              ]
+            },
+            "geometricError": 0.0,
+            "content": {
+              "uri": "content/area-b-piping.glb"
+            }
+          },
+          {
+            "boundingVolume": {
+              "box": [
+                78.70769882202148,
+                13.20769901201129,
+                5.03079605102539,
+                8.807697296142578,
+                0.0,
+                0.0,
+                0.0,
+                13.307699013501406,
+                0.0,
+                0.0,
+                0.0,
+                5.03079605102539
+              ]
+            },
+            "geometricError": 0.0,
+            "content": {
+              "uri": "content/area-b-equipment.glb"
+            }
+          },
+          {
+            "boundingVolume": {
+              "box": [
+                84.25,
+                0.05000000074505806,
+                1.0,
+                14.300003051757812,
+                0.0,
+                0.0,
+                0.0,
+                0.05000000074505806,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            },
+            "geometricError": 0.0,
+            "content": {
+              "uri": "content/area-b-support.glb"
+            }
+          },
+          {
+            "boundingVolume": {
+              "box": [
+                90.0,
+                -1.0,
+                3.05,
+                20.0,
+                0.0,
+                0.0,
+                0.0,
+                0.1499999761581421,
+                0.0,
+                0.0,
+                0.0,
+                0.09999990463256836
+              ]
+            },
+            "geometricError": 0.0,
+            "content": {
+              "uri": "content/area-b-cable.glb"
+            }
+          }
+        ]
+      }
+    ],
+    "extras": {
+      "generator": "TileGraphAgent",
+      "version": "0.1.0"
+    }
+  },
+  "schema": {
+    "classes": {
+      "IndustrialObject": {
+        "name": "Industrial Object",
+        "properties": {
+          "class": {
+            "type": "STRING"
+          },
+          "feature_id": {
+            "componentType": "UINT32",
+            "type": "SCALAR"
+          },
+          "object_id": {
+            "type": "STRING"
+          },
+          "system": {
+            "type": "STRING"
+          },
+          "tag": {
+            "type": "STRING"
+          }
+        }
+      }
+    },
+    "id": "tilegraph_plant_schema"
+  },
+  "extensionsUsed": [
+    "EXT_mesh_features",
+    "EXT_structural_metadata"
+  ]
+}

@@ -1,0 +1,67 @@
+[
+  {
+    "wp_id": "WP-0001",
+    "title": "Annual pump inspection and seal replacement",
+    "description": "Planned maintenance: Annual pump inspection and seal replacement",
+    "status": "PLANNED",
+    "object_refs": [
+      "obj_ccf92b644a92663d4d0bc42f3804974b",
+      "obj_1e78f83802082ac1dfa4aef4ef0b670c",
+      "obj_e3e694d871ab1a6635ea50a7154dcbdb",
+      "obj_085d029287cca92b11734547fe201221",
+      "obj_11b2d63ea176a2b87191c1e903fccf70"
+    ]
+  },
+  {
+    "wp_id": "WP-0002",
+    "title": "Valve packing maintenance run",
+    "description": "Planned maintenance: Valve packing maintenance run",
+    "status": "PLANNED",
+    "object_refs": [
+      "obj_ccf92b644a92663d4d0bc42f3804974b",
+      "obj_1e78f83802082ac1dfa4aef4ef0b670c",
+      "obj_e3e694d871ab1a6635ea50a7154dcbdb",
+      "obj_085d029287cca92b11734547fe201221",
+      "obj_11b2d63ea176a2b87191c1e903fccf70"
+    ]
+  },
+  {
+    "wp_id": "WP-0003",
+    "title": "Instrument calibration campaign",
+    "description": "Planned maintenance: Instrument calibration campaign",
+    "status": "PLANNED",
+    "object_refs": [
+      "obj_ccf92b644a92663d4d0bc42f3804974b",
+      "obj_1e78f83802082ac1dfa4aef4ef0b670c",
+      "obj_e3e694d871ab1a6635ea50a7154dcbdb",
+      "obj_085d029287cca92b11734547fe201221",
+      "obj_11b2d63ea176a2b87191c1e903fccf70"
+    ]
+  },
+  {
+    "wp_id": "WP-0004",
+    "title": "Pipe support inspection",
+    "description": "Planned maintenance: Pipe support inspection",
+    "status": "PLANNED",
+    "object_refs": [
+      "obj_ccf92b644a92663d4d0bc42f3804974b",
+      "obj_1e78f83802082ac1dfa4aef4ef0b670c",
+      "obj_e3e694d871ab1a6635ea50a7154dcbdb",
+      "obj_085d029287cca92b11734547fe201221",
+      "obj_11b2d63ea176a2b87191c1e903fccf70"
+    ]
+  },
+  {
+    "wp_id": "WP-0005",
+    "title": "Tank internal inspection",
+    "description": "Planned maintenance: Tank internal inspection",
+    "status": "PLANNED",
+    "object_refs": [
+      "obj_ccf92b644a92663d4d0bc42f3804974b",
+      "obj_1e78f83802082ac1dfa4aef4ef0b670c",
+      "obj_e3e694d871ab1a6635ea50a7154dcbdb",
+      "obj_085d029287cca92b11734547fe201221",
+      "obj_11b2d63ea176a2b87191c1e903fccf70"
+    ]
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "document_id": "PID-PLT-10-001",
+    "tag": "PID-PLT-10-001",
+    "title": "P&ID PID-PLT-10-001 - Area A — Process Train 1",
+    "area_id": "area-a",
+    "revision": "A",
+    "object_refs": []
+  },
+  {
+    "document_id": "PID-PLT-20-002",
+    "tag": "PID-PLT-20-002",
+    "title": "P&ID PID-PLT-20-002 - Area B — Utilities",
+    "area_id": "area-b",
+    "revision": "A",
+    "object_refs": []
+  },
+  {
+    "document_id": "PID-PLT-10-003",
+    "tag": "PID-PLT-10-003",
+    "title": "P&ID PID-PLT-10-003 - Area A — Process Train 1",
+    "area_id": "area-a",
+    "revision": "A",
+    "object_refs": []
+  },
+  {
+    "document_id": "PID-PLT-20-004",
+    "tag": "PID-PLT-20-004",
+    "title": "P&ID PID-PLT-20-004 - Area B — Utilities",
+    "area_id": "area-b",
+    "revision": "A",
+    "object_refs": []
+  },
+  {
+    "document_id": "PID-PLT-10-005",
+    "tag": "PID-PLT-10-005",
+    "title": "P&ID PID-PLT-10-005 - Area A — Process Train 1",
+    "area_id": "area-a",
+    "revision": "A",
+    "object_refs": []
+  }
+]
