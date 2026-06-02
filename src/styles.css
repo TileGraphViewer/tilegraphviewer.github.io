@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import "../global.css";
 
 @layer base {s
   :root {
