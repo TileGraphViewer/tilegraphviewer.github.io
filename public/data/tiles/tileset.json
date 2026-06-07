@@ -12,13 +12,13 @@
         12.682699024677277,
         5.030796051025391,
         55.05000000074506,
-        0.0,
-        0.0,
-        0.0,
+        0,
+        0,
+        0,
         13.832699000835419,
-        0.0,
-        0.0,
-        0.0,
+        0,
+        0,
+        0,
         5.030796051025391
       ]
     },
@@ -32,13 +32,13 @@
             12.682699024677277,
             5.030796051025391,
             30.050000000745058,
-            0.0,
-            0.0,
-            0.0,
+            0,
+            0,
+            0,
             13.832699000835419,
-            0.0,
-            0.0,
-            0.0,
+            0,
+            0,
+            0,
             5.030796051025391
           ]
         },
@@ -52,13 +52,13 @@
                 12.682699024677277,
                 5.030796051025391,
                 30.050000000745058,
-                0.0,
-                0.0,
-                0.0,
+                0,
+                0,
+                0,
                 13.832699000835419,
-                0.0,
-                0.0,
-                0.0,
+                0,
+                0,
+                0,
                 5.030796051025391
               ]
             },
@@ -72,13 +72,13 @@
                     12.682699024677277,
                     5.030796051025391,
                     30.050000000745058,
-                    0.0,
-                    0.0,
-                    0.0,
+                    0,
+                    0,
+                    0,
                     13.832699000835419,
-                    0.0,
-                    0.0,
-                    0.0,
+                    0,
+                    0,
+                    0,
                     5.030796051025391
                   ]
                 },
@@ -88,28 +88,112 @@
                   {
                     "boundingVolume": {
                       "box": [
-                        18.0,
-                        0.0,
+                        15,
+                        24,
+                        5.030796051025391,
+                        2.5153980255126953,
+                        0,
+                        0,
+                        0,
+                        2.5153980255126953,
+                        0,
+                        0,
+                        0,
+                        5.030796051025391
+                      ]
+                    },
+                    "geometricError": 0.5,
+                    "refine": "ADD",
+                    "content": {
+                      "uri": "content/area-a-lod0-equipment.glb",
+                      "extras": {
+                        "batch_id": "area-a-lod0-equipment",
+                        "lod": 0,
+                        "object_count": 2
+                      }
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "box": [
+                        2.999999951571226,
+                        10.125000189989805,
+                        0.824999988079071,
+                        3.0999999530613422,
+                        0,
+                        0,
+                        0,
+                        10.225000191479921,
+                        0,
+                        0,
+                        0,
+                        0.824999988079071
+                      ]
+                    },
+                    "geometricError": 0.5,
+                    "refine": "ADD",
+                    "content": {
+                      "uri": "content/area-a-lod1-equipment.glb",
+                      "extras": {
+                        "batch_id": "area-a-lod1-equipment",
+                        "lod": 1,
+                        "object_count": 10
+                      }
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "box": [
+                        17.78749966621399,
+                        0,
                         0.5,
-                        18.0,
-                        0.0,
-                        0.0,
-                        0.0,
+                        13.946499586105347,
+                        0,
+                        0,
+                        0,
                         0.23399999737739563,
-                        0.0,
-                        0.0,
-                        0.0,
+                        0,
+                        0,
+                        0,
                         0.156000018119812
                       ]
                     },
                     "geometricError": 0.5,
                     "refine": "ADD",
                     "content": {
-                      "uri": "content/area-a-piping.glb",
+                      "uri": "content/area-a-lod1-piping.glb",
                       "extras": {
-                        "batch_id": "area-a-piping",
+                        "batch_id": "area-a-lod1-piping",
+                        "lod": 1,
+                        "object_count": 16
+                      }
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "box": [
+                        30,
+                        -1,
+                        3,
+                        30,
+                        0,
+                        0,
+                        0,
+                        0.1499999761581421,
+                        0,
+                        0,
+                        0,
+                        0.09999990463256836
+                      ]
+                    },
+                    "geometricError": 0.6000108332267923,
+                    "refine": "ADD",
+                    "content": {
+                      "uri": "content/area-a-cable.glb",
+                      "extras": {
+                        "batch_id": "area-a-cable",
                         "lod": 2,
-                        "object_count": 70
+                        "object_count": 2
                       }
                     }
                   },
@@ -120,13 +204,13 @@
                         13.20769901201129,
                         5.030796051025391,
                         8.807699013501406,
-                        0.0,
-                        0.0,
-                        0.0,
+                        0,
+                        0,
+                        0,
                         13.307699013501406,
-                        0.0,
-                        0.0,
-                        0.0,
+                        0,
+                        0,
+                        0,
                         5.030796051025391
                       ]
                     },
@@ -144,18 +228,130 @@
                   {
                     "boundingVolume": {
                       "box": [
+                        30,
+                        -1,
+                        3,
+                        30,
+                        0,
+                        0,
+                        0,
+                        0.1499999761581421,
+                        0,
+                        0,
+                        0,
+                        0.09999990463256836
+                      ]
+                    },
+                    "geometricError": 0.6000108332267923,
+                    "refine": "ADD",
+                    "content": {
+                      "uri": "content/area-a-lod2-cable.glb",
+                      "extras": {
+                        "batch_id": "area-a-lod2-cable",
+                        "lod": 2,
+                        "object_count": 2
+                      }
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "box": [
+                        18,
+                        0,
+                        0.5,
+                        18,
+                        0,
+                        0,
+                        0,
+                        0.07800000160932541,
+                        0,
+                        0,
+                        0,
+                        0.078000009059906
+                      ]
+                    },
+                    "geometricError": 0.5,
+                    "refine": "ADD",
+                    "content": {
+                      "uri": "content/area-a-lod2-piping.glb",
+                      "extras": {
+                        "batch_id": "area-a-lod2-piping",
+                        "lod": 2,
+                        "object_count": 54
+                      }
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "box": [
+                        14.25,
+                        0.10000000149011612,
+                        2,
+                        14.300000000745058,
+                        0,
+                        0,
+                        0,
+                        0.05000000074505806,
+                        0,
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "geometricError": 0.5,
+                    "refine": "ADD",
+                    "content": {
+                      "uri": "content/area-a-lod2-support.glb",
+                      "extras": {
+                        "batch_id": "area-a-lod2-support",
+                        "lod": 2,
+                        "object_count": 20
+                      }
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "box": [
+                        18,
+                        0,
+                        0.5,
+                        18,
+                        0,
+                        0,
+                        0,
+                        0.23399999737739563,
+                        0,
+                        0,
+                        0,
+                        0.156000018119812
+                      ]
+                    },
+                    "geometricError": 0.5,
+                    "refine": "ADD",
+                    "content": {
+                      "uri": "content/area-a-piping.glb",
+                      "extras": {
+                        "batch_id": "area-a-piping",
+                        "lod": 2,
+                        "object_count": 70
+                      }
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "box": [
                         14.249999618157744,
                         0.05000000074505806,
-                        1.0,
+                        1,
                         14.299999618902802,
-                        0.0,
-                        0.0,
-                        0.0,
+                        0,
+                        0,
+                        0,
                         0.05000000074505806,
-                        0.0,
-                        0.0,
-                        0.0,
-                        1.0
+                        0,
+                        0,
+                        0,
+                        1
                       ]
                     },
                     "geometricError": 0.5,
@@ -166,34 +362,6 @@
                         "batch_id": "area-a-support",
                         "lod": 2,
                         "object_count": 20
-                      }
-                    }
-                  },
-                  {
-                    "boundingVolume": {
-                      "box": [
-                        30.0,
-                        -1.0,
-                        3.0,
-                        30.0,
-                        0.0,
-                        0.0,
-                        0.0,
-                        0.1499999761581421,
-                        0.0,
-                        0.0,
-                        0.0,
-                        0.09999990463256836
-                      ]
-                    },
-                    "geometricError": 0.6000108332267923,
-                    "refine": "ADD",
-                    "content": {
-                      "uri": "content/area-a-cable.glb",
-                      "extras": {
-                        "batch_id": "area-a-cable",
-                        "lod": 2,
-                        "object_count": 2
                       }
                     }
                   }
@@ -220,13 +388,13 @@
             12.682699024677277,
             5.030796051025391,
             20.049999237060547,
-            0.0,
-            0.0,
-            0.0,
+            0,
+            0,
+            0,
             13.832699000835419,
-            0.0,
-            0.0,
-            0.0,
+            0,
+            0,
+            0,
             5.030796051025391
           ]
         },
@@ -240,13 +408,13 @@
                 12.682699024677277,
                 5.030796051025391,
                 20.049999237060547,
-                0.0,
-                0.0,
-                0.0,
+                0,
+                0,
+                0,
                 13.832699000835419,
-                0.0,
-                0.0,
-                0.0,
+                0,
+                0,
+                0,
                 5.030796051025391
               ]
             },
@@ -260,13 +428,13 @@
                     12.682699024677277,
                     5.030796051025391,
                     20.049999237060547,
-                    0.0,
-                    0.0,
-                    0.0,
+                    0,
+                    0,
+                    0,
                     13.832699000835419,
-                    0.0,
-                    0.0,
-                    0.0,
+                    0,
+                    0,
+                    0,
                     5.030796051025391
                   ]
                 },
@@ -276,28 +444,112 @@
                   {
                     "boundingVolume": {
                       "box": [
-                        80.0,
-                        0.0,
+                        85,
+                        24,
+                        5.030796051025391,
+                        2.5153961181640625,
+                        0,
+                        0,
+                        0,
+                        2.5153980255126953,
+                        0,
+                        0,
+                        0,
+                        5.030796051025391
+                      ]
+                    },
+                    "geometricError": 0.5,
+                    "refine": "ADD",
+                    "content": {
+                      "uri": "content/area-b-lod0-equipment.glb",
+                      "extras": {
+                        "batch_id": "area-b-lod0-equipment",
+                        "lod": 0,
+                        "object_count": 1
+                      }
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "box": [
+                        73,
+                        10.125000189989805,
+                        0.824999988079071,
+                        3.0999984741210938,
+                        0,
+                        0,
+                        0,
+                        10.225000191479921,
+                        0,
+                        0,
+                        0,
+                        0.824999988079071
+                      ]
+                    },
+                    "geometricError": 0.5,
+                    "refine": "ADD",
+                    "content": {
+                      "uri": "content/area-b-lod1-equipment.glb",
+                      "extras": {
+                        "batch_id": "area-b-lod1-equipment",
+                        "lod": 1,
+                        "object_count": 5
+                      }
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "box": [
+                        80,
+                        0,
                         0.5,
-                        10.0,
-                        0.0,
-                        0.0,
-                        0.0,
+                        7.5839996337890625,
+                        0,
+                        0,
+                        0,
                         0.08399999886751175,
-                        0.0,
-                        0.0,
-                        0.0,
+                        0,
+                        0,
+                        0,
                         0.0559999942779541
                       ]
                     },
                     "geometricError": 0.5,
                     "refine": "ADD",
                     "content": {
-                      "uri": "content/area-b-piping.glb",
+                      "uri": "content/area-b-lod1-piping.glb",
                       "extras": {
-                        "batch_id": "area-b-piping",
+                        "batch_id": "area-b-lod1-piping",
+                        "lod": 1,
+                        "object_count": 4
+                      }
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "box": [
+                        90,
+                        -1,
+                        3,
+                        20,
+                        0,
+                        0,
+                        0,
+                        0.1499999761581421,
+                        0,
+                        0,
+                        0,
+                        0.09999990463256836
+                      ]
+                    },
+                    "geometricError": 0.5,
+                    "refine": "ADD",
+                    "content": {
+                      "uri": "content/area-b-cable.glb",
+                      "extras": {
+                        "batch_id": "area-b-cable",
                         "lod": 2,
-                        "object_count": 14
+                        "object_count": 2
                       }
                     }
                   },
@@ -308,13 +560,13 @@
                         13.20769901201129,
                         5.030796051025391,
                         8.807697296142578,
-                        0.0,
-                        0.0,
-                        0.0,
+                        0,
+                        0,
+                        0,
                         13.307699013501406,
-                        0.0,
-                        0.0,
-                        0.0,
+                        0,
+                        0,
+                        0,
                         5.030796051025391
                       ]
                     },
@@ -332,18 +584,130 @@
                   {
                     "boundingVolume": {
                       "box": [
+                        90,
+                        -1,
+                        3,
+                        20,
+                        0,
+                        0,
+                        0,
+                        0.1499999761581421,
+                        0,
+                        0,
+                        0,
+                        0.09999990463256836
+                      ]
+                    },
+                    "geometricError": 0.5,
+                    "refine": "ADD",
+                    "content": {
+                      "uri": "content/area-b-lod2-cable.glb",
+                      "extras": {
+                        "batch_id": "area-b-lod2-cable",
+                        "lod": 2,
+                        "object_count": 2
+                      }
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "box": [
+                        80,
+                        0,
+                        0.5,
+                        10,
+                        0,
+                        0,
+                        0,
+                        0.02800000086426735,
+                        0,
+                        0,
+                        0,
+                        0.02799999713897705
+                      ]
+                    },
+                    "geometricError": 0.5,
+                    "refine": "ADD",
+                    "content": {
+                      "uri": "content/area-b-lod2-piping.glb",
+                      "extras": {
+                        "batch_id": "area-b-lod2-piping",
+                        "lod": 2,
+                        "object_count": 10
+                      }
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "box": [
+                        84.25,
+                        0.10000000149011612,
+                        2,
+                        14.300003051757812,
+                        0,
+                        0,
+                        0,
+                        0.05000000074505806,
+                        0,
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "geometricError": 0.5,
+                    "refine": "ADD",
+                    "content": {
+                      "uri": "content/area-b-lod2-support.glb",
+                      "extras": {
+                        "batch_id": "area-b-lod2-support",
+                        "lod": 2,
+                        "object_count": 20
+                      }
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "box": [
+                        80,
+                        0,
+                        0.5,
+                        10,
+                        0,
+                        0,
+                        0,
+                        0.08399999886751175,
+                        0,
+                        0,
+                        0,
+                        0.0559999942779541
+                      ]
+                    },
+                    "geometricError": 0.5,
+                    "refine": "ADD",
+                    "content": {
+                      "uri": "content/area-b-piping.glb",
+                      "extras": {
+                        "batch_id": "area-b-piping",
+                        "lod": 2,
+                        "object_count": 14
+                      }
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "box": [
                         84.25,
                         0.05000000074505806,
-                        1.0,
+                        1,
                         14.300003051757812,
-                        0.0,
-                        0.0,
-                        0.0,
+                        0,
+                        0,
+                        0,
                         0.05000000074505806,
-                        0.0,
-                        0.0,
-                        0.0,
-                        1.0
+                        0,
+                        0,
+                        0,
+                        1
                       ]
                     },
                     "geometricError": 0.5,
@@ -354,34 +718,6 @@
                         "batch_id": "area-b-support",
                         "lod": 2,
                         "object_count": 20
-                      }
-                    }
-                  },
-                  {
-                    "boundingVolume": {
-                      "box": [
-                        90.0,
-                        -1.0,
-                        3.0,
-                        20.0,
-                        0.0,
-                        0.0,
-                        0.0,
-                        0.1499999761581421,
-                        0.0,
-                        0.0,
-                        0.0,
-                        0.09999990463256836
-                      ]
-                    },
-                    "geometricError": 0.5,
-                    "refine": "ADD",
-                    "content": {
-                      "uri": "content/area-b-cable.glb",
-                      "extras": {
-                        "batch_id": "area-b-cable",
-                        "lod": 2,
-                        "object_count": 2
                       }
                     }
                   }
