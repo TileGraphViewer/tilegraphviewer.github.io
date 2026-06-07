@@ -1,4 +1,5 @@
 import { apiUrl } from "../api.js";
+import { loadStaticHierarchy } from "../data/static_data.js";
 
 interface TreeNode {
   id: string;
@@ -18,19 +19,34 @@ export async function initModelTree(
   try {
     const res = await fetch(apiUrl("/hierarchy"));
     if (!res.ok) {
-      panelEl.innerHTML = renderModelTreeShell(`<p class="error">Hierarchy unavailable</p>`);
+      await renderStaticModelTree(panelEl, onIsolate, onSelect);
       return;
     }
     const tree: TreeNode[] = await res.json();
     panelEl.innerHTML = renderModelTreeShell(renderTree(tree));
     attachTreeHandlers(panelEl, onIsolate, onSelect);
   } catch {
-    panelEl.innerHTML = renderModelTreeShell(`<p class="error">MCP server unreachable</p>`);
+    await renderStaticModelTree(panelEl, onIsolate, onSelect);
   }
 }
 
 function renderModelTreeShell(content: string): string {
   return `<h3>Model Tree</h3><p class="panel-note">Hierarchy</p><div class="model-tree-content">${content}</div>`;
+}
+
+async function renderStaticModelTree(
+  panelEl: HTMLElement,
+  onIsolate: (objectIds: string[]) => void,
+  onSelect: (objectIds: string[]) => void
+): Promise<void> {
+  try {
+    const tree = await loadStaticHierarchy();
+    panelEl.innerHTML = renderModelTreeShell(renderTree(tree));
+    attachTreeHandlers(panelEl, onIsolate, onSelect);
+  } catch (err) {
+    console.warn("[Model Tree] Static hierarchy unavailable:", err);
+    panelEl.innerHTML = renderModelTreeShell(`<p class="error">Hierarchy unavailable</p>`);
+  }
 }
 
 function renderTree(nodes: TreeNode[]): string {

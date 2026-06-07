@@ -1,4 +1,5 @@
 import { apiUrl } from "../api.js";
+import { fetchStaticObjectProperties } from "../data/static_data.js";
 
 interface ObjectProperties {
   object_id: string;
@@ -20,14 +21,27 @@ export async function fetchAndRenderProperties(
   try {
     const res = await fetch(apiUrl(`/objects/${encodeURIComponent(objectId)}`));
     if (!res.ok) {
-      panelEl.innerHTML = `<h3>Properties</h3><p class="error">Not found (${res.status})</p>`;
+      await renderStaticProperties(objectId, panelEl);
       return;
     }
     const data: { found: boolean; properties: ObjectProperties } = await res.json();
     panelEl.innerHTML = renderPropertiesTable(data.properties ?? {});
   } catch {
-    panelEl.innerHTML = `<h3>Properties</h3>
-      <p class="error">MCP server unreachable.<br/>Start: <code>npm run dev</code> in apps/tilegraphmcp</p>`;
+    await renderStaticProperties(objectId, panelEl);
+  }
+}
+
+async function renderStaticProperties(objectId: string, panelEl: HTMLElement): Promise<void> {
+  try {
+    const properties = await fetchStaticObjectProperties(objectId);
+    if (!properties) {
+      panelEl.innerHTML = `<h3>Properties</h3><p class="error">Not found</p>`;
+      return;
+    }
+    panelEl.innerHTML = renderPropertiesTable(properties);
+  } catch (err) {
+    console.warn("[Properties] Static properties unavailable:", err);
+    panelEl.innerHTML = `<h3>Properties</h3><p class="error">Properties unavailable</p>`;
   }
 }
 
