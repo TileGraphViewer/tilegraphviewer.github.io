@@ -16,14 +16,33 @@ export interface TileGraphViewer {
 export const featureIdToObjectId: Map<number, string> = new Map();
 export const objectIdToFeatureId: Map<string, number> = new Map();
 
-const HIGHLIGHT_COLOR_HEX = "#00CCFF";
-const NORMAL_COLOR_HEX = "#CCCCCC";
-const DIM_COLOR_HEX = "#555555";
+interface ViewerThemeColors {
+  background: string;
+  highlight: string;
+  normal: string;
+  dim: string;
+}
+
+function readCssColorVar(name: string, fallback: string): string {
+  const value = getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+  return value.length > 0 ? value : fallback;
+}
+
+function getViewerThemeColors(): ViewerThemeColors {
+  return {
+    background: readCssColorVar("--app-viewer-bg", "black"),
+    highlight: readCssColorVar("--app-viewer-highlight", "cyan"),
+    normal: readCssColorVar("--app-viewer-normal", "white"),
+    dim: readCssColorVar("--app-viewer-dim", "gray"),
+  };
+}
 
 function buildHighlightStyle(
   highlightIds: string[],
   isolatedIds: string[] | null
 ): Cesium.Cesium3DTileStyle {
+  const colors = getViewerThemeColors();
+
   if (isolatedIds !== null && isolatedIds.length > 0) {
     const idList = isolatedIds.map((id) => `'${id}'`).join(",");
     return new Cesium.Cesium3DTileStyle({
@@ -32,9 +51,9 @@ function buildHighlightStyle(
         conditions: [
           [
             `[${idList}].indexOf(String(\${object_id})) >= 0`,
-            `color('${HIGHLIGHT_COLOR_HEX}', 1.0)`,
+            `color('${colors.highlight}', 1.0)`,
           ],
-          ["true", `color('${NORMAL_COLOR_HEX}', 0.0)`],
+          ["true", `color('${colors.normal}', 0.0)`],
         ],
       },
     });
@@ -48,16 +67,16 @@ function buildHighlightStyle(
         conditions: [
           [
             `[${idList}].indexOf(String(\${object_id})) >= 0`,
-            `color('${HIGHLIGHT_COLOR_HEX}', 1.0)`,
+            `color('${colors.highlight}', 1.0)`,
           ],
-          ["true", `color('${DIM_COLOR_HEX}', 0.5)`],
+          ["true", `color('${colors.dim}', 0.5)`],
         ],
       },
     });
   }
 
   return new Cesium.Cesium3DTileStyle({
-    color: `color('${NORMAL_COLOR_HEX}', 0.9)`,
+    color: `color('${colors.normal}', 0.9)`,
   });
 }
 
@@ -84,7 +103,8 @@ export async function initCesiumViewer(
     baseLayer: false,
   });
 
-  viewer.scene.backgroundColor = new Cesium.Color(0.12, 0.12, 0.16, 1.0);
+  viewer.scene.backgroundColor =
+    Cesium.Color.fromCssColorString(getViewerThemeColors().background) ?? Cesium.Color.BLACK;
 
   const tilesetRef = { tileset: null as Cesium.Cesium3DTileset | null };
 

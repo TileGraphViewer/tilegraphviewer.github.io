@@ -1,0 +1,4 @@
+curl -X POST https://1c3578a5.databases.neo4j.io:7473/db/neo4j/tx/commit \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Basic $(echo -n 'neo4j:rcay3eabu36fVCG7YQ-T_5piah1o87XFwojz4xUhT6s' | base64)" \
+  -d '{"statements":[{"statement":"RETURN 1 AS n"}]}'

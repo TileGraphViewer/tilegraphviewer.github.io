@@ -14,19 +14,23 @@ export async function initModelTree(
   onIsolate: (objectIds: string[]) => void,
   onSelect: (objectIds: string[]) => void
 ): Promise<void> {
-  panelEl.innerHTML = `<h3>Model Tree</h3><p class="loading">Loading hierarchy...</p>`;
+  panelEl.innerHTML = renderModelTreeShell(`<p class="loading">Loading hierarchy...</p>`);
   try {
     const res = await fetch(apiUrl("/hierarchy"));
     if (!res.ok) {
-      panelEl.innerHTML = `<h3>Model Tree</h3><p class="error">Hierarchy unavailable</p>`;
+      panelEl.innerHTML = renderModelTreeShell(`<p class="error">Hierarchy unavailable</p>`);
       return;
     }
     const tree: TreeNode[] = await res.json();
-    panelEl.innerHTML = `<h3>Model Tree</h3>` + renderTree(tree);
+    panelEl.innerHTML = renderModelTreeShell(renderTree(tree));
     attachTreeHandlers(panelEl, onIsolate, onSelect);
   } catch {
-    panelEl.innerHTML = `<h3>Model Tree</h3><p class="error">MCP server unreachable</p>`;
+    panelEl.innerHTML = renderModelTreeShell(`<p class="error">MCP server unreachable</p>`);
   }
+}
+
+function renderModelTreeShell(content: string): string {
+  return `<h3>Model Tree</h3><p class="panel-note">Hierarchy</p><div class="model-tree-content">${content}</div>`;
 }
 
 function renderTree(nodes: TreeNode[]): string {
@@ -39,7 +43,7 @@ function renderTree(nodes: TreeNode[]): string {
         ? `<button class="tree-isolate" data-ids="${ids}">⊡</button>`
         : "";
       const childrenHtml = hasChildren
-        ? `<div class="tree-children" style="display:none">${renderTree(node.children!)}</div>`
+        ? `<div class="tree-children" hidden>${renderTree(node.children!)}</div>`
         : "";
       return `
         <div class="tree-node" data-class="${node.class}">
@@ -64,8 +68,8 @@ function attachTreeHandlers(
       const row = (e.target as Element).closest(".tree-node");
       const children = row?.querySelector(".tree-children") as HTMLElement | null;
       if (children) {
-        const isOpen = children.style.display !== "none";
-        children.style.display = isOpen ? "none" : "block";
+        const isOpen = !children.hidden;
+        children.hidden = isOpen;
         (e.target as Element).textContent = isOpen ? "▶" : "▼";
       }
     });

@@ -43,10 +43,12 @@
     </div>
   </div> -->
 
-  <div id="sidebar">
+  <aside id="hierarchy-sidebar" aria-label="Hierarchy">
+    <div class="sidebar-heading">Hierarchy</div>
+
     <div class="panel" id="model-tree-panel">
       <h3>Model Tree</h3>
-      <p class="loading">Loading...</p>
+      <p class="panel-note">Hierarchy</p>
     </div>
 
     <div class="panel" id="selection-panel">
@@ -58,9 +60,11 @@
       <h3>Audit Log</h3>
       <p class="panel-note">No tool calls yet.</p>
     </div>
+  </aside>
 
+  <aside id="chat-sidebar" aria-label="Agent chat">
     <div id="agent-panel">
-      <div class="panel" style="padding:0 0 8px 0; border:none">
+      <div class="chat-header">
         <h3>Agent Chat</h3>
       </div>
       <div id="agent-messages">
@@ -74,9 +78,7 @@
         <button id="agent-submit">Ask</button>
       </div>
     </div>
-
-    <div id="status-bar">TileGraphAgent v0.1.0 | Synthetic EPC Plant V1</div>
-  </div>
+  </aside>
 
   <script type="module" src="/src/main.ts">
 

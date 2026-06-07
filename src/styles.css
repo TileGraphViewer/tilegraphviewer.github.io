@@ -14,51 +14,120 @@
   body {
     margin: 0;
     overflow: hidden;
-    background:
-      radial-gradient(circle at top, var(--app-page-glow), transparent 34%),
-      linear-gradient(180deg, var(--app-page-bg-start) 0%, var(--app-page-bg-end) 100%);
+    background-color: var(--app-page-bg-start);
     color: var(--app-text-primary);
     font-family: var(--fontFamilyBase);
+    font-size: var(--fontSizeBase300);
+  }
+
+  button,
+  input,
+  textarea {
+    font: inherit;
   }
 }
 
 @layer components {
   #cesium-container {
     @apply absolute inset-0;
+    background-color: var(--app-page-bg-start);
   }
 
-  #sidebar {
-    @apply absolute right-0 top-0 z-20 flex h-full w-80 flex-col border-l backdrop-blur-xl;
+  #hierarchy-sidebar,
+  #chat-sidebar {
+    @apply absolute top-0 z-20 flex h-full min-h-0 flex-col;
     background-color: var(--app-sidebar-bg);
+    color: var(--app-text-primary);
+    font-family: var(--fontFamilyBase);
+  }
+
+  #hierarchy-sidebar {
+    @apply left-0 w-80 border-r;
     border-color: var(--app-sidebar-border);
-    box-shadow: var(--shadow16);
+    box-shadow: var(--shadow8);
+  }
+
+  #chat-sidebar {
+    @apply right-0 w-96 border-l;
+    border-color: var(--app-sidebar-border);
+    box-shadow: var(--shadow8);
+  }
+
+  .sidebar-heading {
+    @apply flex h-9 shrink-0 items-center border-b px-3 text-sm font-semibold;
+    background-color: var(--app-sidebar-header-bg);
+    border-color: var(--app-sidebar-border);
+    color: var(--app-text-primary);
+    letter-spacing: 0;
   }
 
   .panel {
-    @apply border-b p-4;
+    @apply min-h-0 border-b;
+    background-color: var(--app-panel-bg);
     border-color: var(--app-panel-border);
+  }
+
+  .panel h3,
+  .chat-header h3 {
+    @apply m-0 flex min-h-8 items-center px-3 py-2 text-xs font-semibold;
+    color: var(--app-text-primary);
+    letter-spacing: 0;
+  }
+
+  .panel h3 {
+    @apply border-b;
+    background-color: var(--app-panel-header-bg);
+    border-color: var(--app-panel-border);
+  }
+
+  #model-tree-panel {
+    @apply flex flex-1 flex-col;
+  }
+
+  .model-tree-content {
+    @apply min-h-0 flex-1 overflow-y-auto px-2 pb-2;
+    scrollbar-width: thin;
+  }
+
+  #selection-panel {
+    @apply max-h-[38%] overflow-y-auto;
+    scrollbar-width: thin;
+  }
+
+  #audit-panel {
+    @apply max-h-40 overflow-y-auto;
+    scrollbar-width: thin;
   }
 
   #agent-panel {
-    @apply flex flex-1 flex-col p-4;
+    @apply flex h-full min-h-0 flex-col;
+    background-color: var(--app-chat-bg);
+  }
+
+  .chat-header {
+    @apply shrink-0 border-b;
+    background-color: var(--app-sidebar-header-bg);
+    border-color: var(--app-sidebar-border);
   }
 
   #agent-messages {
-    @apply flex-1 space-y-2 overflow-y-auto rounded-2xl border p-3 text-sm leading-6;
+    @apply flex flex-1 flex-col gap-2 overflow-y-auto p-3 text-sm leading-5;
     background-color: var(--app-chat-bg);
-    border-color: var(--app-panel-border);
+    scrollbar-width: thin;
   }
 
   #agent-input-row {
-    @apply mt-3 flex gap-2;
+    @apply flex shrink-0 gap-2 border-t p-3;
+    background-color: var(--app-sidebar-bg);
+    border-color: var(--app-sidebar-border);
   }
 
   #agent-input {
-    @apply min-w-0 flex-1 rounded-2xl border px-4 py-2.5 text-sm outline-none transition;
+    @apply h-8 min-w-0 flex-1 border px-2.5 text-sm outline-none transition;
     background-color: var(--app-input-bg);
     border-color: var(--app-input-border);
+    border-radius: var(--borderRadiusMedium);
     color: var(--app-text-primary);
-    box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.04);
   }
 
   #agent-input::placeholder,
@@ -68,45 +137,52 @@
 
   #agent-input:focus,
   .ai-bar__input:focus {
-    border-color: var(--app-accent);
-    box-shadow: 0 0 0 2px color-mix(in srgb, var(--app-accent) 20%, transparent);
+    border-color: var(--app-focus-ring);
+    box-shadow: 0 0 0 1px var(--app-focus-ring);
   }
 
   #agent-submit {
-    @apply inline-flex items-center justify-center rounded-2xl px-4 text-sm font-medium transition disabled:cursor-not-allowed;
+    @apply inline-flex h-8 shrink-0 items-center justify-center border px-3 text-sm font-medium transition disabled:cursor-not-allowed;
     background-color: var(--app-accent);
+    border-color: var(--app-accent);
+    border-radius: var(--borderRadiusMedium);
     color: var(--app-accent-contrast);
   }
 
   #agent-submit:hover {
     background-color: var(--app-accent-hover);
+    border-color: var(--app-accent-hover);
   }
 
   #agent-submit:disabled {
     background-color: var(--app-disabled-bg);
+    border-color: var(--app-disabled-bg);
     color: var(--app-disabled-text);
   }
 
-  #status-bar {
-    @apply border-t px-4 py-3 text-[11px];
-    border-color: var(--app-panel-border);
-    color: var(--app-text-muted);
+  .msg-user,
+  .msg-assistant {
+    @apply max-w-[92%] border px-3 py-2 text-sm leading-5;
+    border-radius: var(--borderRadiusLarge);
   }
 
   .msg-user {
-    @apply ml-auto max-w-[90%] rounded-2xl rounded-br-md px-3 py-2 text-sm leading-6;
+    @apply self-end;
     background-color: var(--app-user-msg-bg);
-    border: 1px solid var(--app-user-msg-border);
-    box-shadow: var(--shadow2);
+    border-color: var(--app-user-msg-border);
     color: var(--app-user-msg-text);
   }
 
   .msg-assistant {
-    @apply max-w-[90%] rounded-2xl rounded-bl-md px-3 py-2 text-sm leading-6;
+    @apply self-start;
     background-color: var(--app-assistant-msg-bg);
-    border: 1px solid var(--app-assistant-msg-border);
-    box-shadow: var(--shadow2);
+    border-color: var(--app-assistant-msg-border);
     color: var(--app-text-primary);
+  }
+
+  .msg-error {
+    border-color: var(--colorStatusDangerForegroundInverted);
+    color: var(--colorStatusDangerForegroundInverted);
   }
 
   .msg-meta {
@@ -114,33 +190,42 @@
     color: var(--app-text-muted);
   }
 
-  .panel-note {
-    @apply text-[11px];
+  .panel-note,
+  .loading,
+  .error {
+    @apply m-0 px-3 pb-3 pt-2 text-xs;
+  }
+
+  .panel-note,
+  .loading {
     color: var(--app-text-muted);
-  }
-
-  .prop-table {
-    @apply mt-3 w-full border-collapse;
-  }
-
-  .prop-key {
-    @apply w-2/5 px-2 py-2 align-top text-[11px] uppercase tracking-[0.18em];
-    color: var(--app-text-muted);
-  }
-
-  .prop-val {
-    @apply break-all px-2 py-2 text-xs;
-    color: var(--app-text-primary);
   }
 
   .loading {
-    @apply mt-3 text-xs italic;
-    color: var(--app-text-muted);
+    @apply italic;
   }
 
   .error {
-    @apply mt-3 text-xs;
     color: var(--colorStatusDangerForegroundInverted);
+  }
+
+  .prop-table {
+    @apply m-0 w-full border-collapse text-xs;
+  }
+
+  .prop-table tr {
+    border-top: var(--strokeWidthThin) solid var(--app-panel-border);
+  }
+
+  .prop-key {
+    @apply w-2/5 px-3 py-2 align-top font-medium;
+    color: var(--app-text-muted);
+    letter-spacing: 0;
+  }
+
+  .prop-val {
+    @apply break-all px-3 py-2 align-top;
+    color: var(--app-text-primary);
   }
 
   .tree-node {
@@ -148,7 +233,8 @@
   }
 
   .tree-row {
-    @apply flex items-center gap-2 rounded-lg px-2 py-1.5 transition;
+    @apply flex h-7 items-center gap-1 px-1 transition;
+    border-radius: var(--borderRadiusSmall);
   }
 
   .tree-row:hover {
@@ -156,7 +242,7 @@
   }
 
   .tree-toggle {
-    @apply flex w-3 shrink-0;
+    @apply flex w-4 shrink-0 justify-center text-xs;
     color: var(--app-accent-soft);
   }
 
@@ -174,13 +260,15 @@
   }
 
   .tree-children {
-    @apply ml-4 border-l pl-3;
+    @apply ml-3 border-l pl-2;
     border-color: var(--app-panel-border);
   }
 
   .tree-isolate {
-    @apply inline-flex shrink-0 items-center rounded-md border px-1.5 py-0.5 text-[10px] font-semibold transition;
+    @apply inline-flex h-5 shrink-0 items-center border px-1 text-[10px] font-semibold transition;
+    background-color: transparent;
     border-color: var(--app-accent-soft-border);
+    border-radius: var(--borderRadiusSmall);
     color: var(--app-accent-soft-text);
   }
 
@@ -188,10 +276,21 @@
     background-color: var(--app-accent-soft-bg);
   }
 
+  .audit-entry {
+    @apply border-t px-3 py-2 text-xs;
+    border-color: var(--app-panel-border);
+    color: var(--app-text-muted);
+  }
+
+  .audit-entry .tool {
+    color: var(--app-accent-soft-text);
+  }
+
   .ai-bar {
-    @apply pointer-events-auto absolute left-1/2 bottom-6 z-20 w-[min(48rem,calc(100vw-2rem))] -translate-x-1/2 rounded-3xl border p-4 backdrop-blur-xl;
+    @apply pointer-events-auto absolute left-1/2 bottom-6 z-20 w-[min(48rem,calc(100vw-2rem))] -translate-x-1/2 border p-3;
     background-color: var(--app-ai-bar-bg);
     border-color: var(--app-panel-border);
+    border-radius: var(--borderRadiusXLarge);
     box-shadow: var(--shadow16);
   }
 
@@ -205,18 +304,19 @@
   }
 
   .ai-bar__input {
-    @apply min-h-11 max-h-40 w-full resize-none rounded-2xl border px-4 py-3 text-sm shadow-inner outline-none transition;
+    @apply min-h-11 max-h-40 w-full resize-none border px-3 py-2 text-sm outline-none transition;
     background-color: var(--app-input-bg);
     border-color: var(--app-input-border);
+    border-radius: var(--borderRadiusMedium);
     color: var(--app-text-primary);
-    box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.03);
   }
 
   .ai-bar__icon-button,
   .ai-bar__send {
-    @apply inline-flex h-11 w-11 items-center justify-center rounded-2xl border transition;
+    @apply inline-flex h-8 w-8 items-center justify-center border transition;
     background-color: var(--app-icon-bg);
     border-color: var(--app-input-border);
+    border-radius: var(--borderRadiusMedium);
     color: var(--app-icon-fg);
   }
 
@@ -226,18 +326,45 @@
   }
 
   .ai-bar__send {
-    border-color: color-mix(in srgb, var(--app-accent) 70%, transparent);
     background-color: var(--app-accent);
+    border-color: var(--app-accent);
     color: var(--app-accent-contrast);
   }
 
   .ai-bar__send:hover {
     background-color: var(--app-accent-hover);
+    border-color: var(--app-accent-hover);
   }
 
   .ai-bar__send:disabled {
     cursor: not-allowed;
     background-color: var(--app-disabled-bg);
+    border-color: var(--app-disabled-bg);
     color: var(--app-disabled-text);
+  }
+
+  @media (max-width: 1100px) {
+    #hierarchy-sidebar {
+      @apply w-72;
+    }
+
+    #chat-sidebar {
+      @apply w-80;
+    }
+  }
+
+  @media (max-width: 720px) {
+    #hierarchy-sidebar,
+    #chat-sidebar {
+      width: 50vw;
+    }
+
+    #agent-input-row {
+      @apply gap-1.5 p-2;
+    }
+
+    #agent-submit {
+      @apply px-2;
+    }
   }
 }

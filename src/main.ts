@@ -89,7 +89,7 @@ async function main(): Promise<void> {
             agentMessages.scrollTop = agentMessages.scrollHeight;
           } else if (chunk.type === "error") {
             assistantDiv.textContent = `Error: ${chunk.message}`;
-            (assistantDiv as HTMLElement).style.color = "#ef5350";
+            assistantDiv.classList.add("msg-error");
           }
         },
         agentAbortController.signal,
@@ -115,9 +115,13 @@ function renderAuditPanel(state: ReturnType<typeof store.get>): void {
   const panel = document.getElementById("audit-panel");
   if (!panel) return;
   const last5 = state.auditLog.slice(-5).reverse();
+  const entries = last5.length
+    ? last5.map((e) => `<div class="audit-entry"><span class="tool">${e.tool_name}</span> ${e.timestamp}</div>`).join("")
+    : `<p class="panel-note">No tool calls yet.</p>`;
+
   panel.innerHTML = `
     <h3>Audit Log</h3>
-    ${last5.map((e) => `<div class="audit-entry"><span class="tool">${e.tool_name}</span> ${e.timestamp}</div>`).join("")}
+    ${entries}
   `;
 }
 
