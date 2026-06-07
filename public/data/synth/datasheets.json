@@ -6,8 +6,8 @@
     "class": "Pump",
     "properties": {
       "design_pressure_bar": 6.0,
-      "design_temperature_c": 45.0,
       "power_kw": 22.0,
+      "design_temperature_c": 45.0,
       "fluid": "COOLING_WATER"
     }
   },
@@ -18,9 +18,9 @@
     "class": "Pump",
     "properties": {
       "power_kw": 22.0,
-      "design_pressure_bar": 25.0,
+      "design_temperature_c": 120.0,
       "fluid": "HYDROCARBON",
-      "design_temperature_c": 120.0
+      "design_pressure_bar": 25.0
     }
   },
   {
@@ -29,10 +29,10 @@
     "tag": "P-2001",
     "class": "Pump",
     "properties": {
-      "design_pressure_bar": 10.0,
-      "power_kw": 22.0,
+      "design_temperature_c": 180.0,
       "fluid": "STEAM",
-      "design_temperature_c": 180.0
+      "power_kw": 22.0,
+      "design_pressure_bar": 10.0
     }
   }
 ]
